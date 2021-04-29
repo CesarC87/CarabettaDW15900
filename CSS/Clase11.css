@@ -1,0 +1,369 @@
+/*Variables*/
+/*Inicio*/
+.header {
+  height: 103px;
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  margin: 0px;
+  padding: 0px;
+  background: #fbf6d0;
+  background: linear-gradient(180deg, #fbf6d0 0%, rgba(246, 215, 141, 0.975228) 54%, #ffc359 96%); }
+  .header__logo {
+    margin: 0;
+    justify-self: center; }
+  .header__subtitulo {
+    justify-self: left;
+    align-self: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white; }
+  .header__titulo {
+    color: white;
+    justify-self: center;
+    font-family: 'Dancing Script', cursive;
+    align-self: flex-start;
+    font-size: 100px;
+    color: white;
+    margin: 0 0 0 50px;
+    transition: 2s; }
+  .header__img {
+    height: 150; }
+  .header__titulo:hover {
+    transform: translate(40px, 10px); }
+
+.article__titulo {
+  text-decoration: underline;
+  color: white;
+  margin: 0 0 0 2%;
+  font-family: 'Orelega One', cursive;
+  font-weight: 400; }
+
+.section {
+  margin: 0;
+  background-image: url(./background4.jpg);
+  background-size: cover; }
+
+.descripcion {
+  background-image: url(./pasta.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 150px; }
+  .descripcion__parrafo {
+    margin: 0 5% 0 5%;
+    text-align: center;
+    align-self: center;
+    font-family: 'Antonio', sans-serif;
+    font-size: 25px; }
+  .descripcion__titulo {
+    font-family: 'Zilla Slab Highlight', cursive;
+    text-align: center;
+    color: #3e494b;
+    margin: 0 0 0 3%; }
+
+nav .breadcrumb {
+  margin-bottom: 0; }
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  background-color: #fbcb97f2;
+  width: 50%;
+  border-radius: 20px;
+  transition: 2s;
+  justify-content: center; }
+  .aside:hover {
+    width: 75%; }
+  .aside__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .aside a {
+    line-height: 25px;
+    font-size: 15px;
+    margin-left: 0;
+    padding: 0; }
+  .aside h2 {
+    padding: 5px;
+    text-align: center;
+    margin: 0; }
+  .aside li {
+    margin-bottom: 10px; }
+
+.asideFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 0 10px 0; }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-grow: inherit;
+  color: cornsilk;
+  text-align: center;
+  background-color: #1a1818;
+  margin: 0;
+  padding: 0 0 10px 0; }
+
+form .form-group {
+  margin: 0;
+  padding: 0;
+  height: 55px; }
+
+label {
+  margin-top: 10px; }
+
+.footer1 {
+  align-self: center; }
+
+.footer1 p {
+  margin: 0; }
+
+.footer2 {
+  margin: 0 0 0 10%; }
+
+.emailinput {
+  margin: 5% 1% 0 0; }
+
+/*  Recetas  */
+.h1recetas, .h1tecnicas1, .h1tecnicas2, .h1galeria {
+  margin: 10px  0  10px  10px;
+  background-color: cornsilk;
+  border-radius: 20px;
+  width: 30%; }
+  .h1recetas__titulo, .h1tecnicas1__titulo, .h1tecnicas2__titulo, .h1galeria__titulo {
+    text-align: left;
+    margin: 0 0 0 15px;
+    font-family: 'Quicksand', sans-serif; }
+
+#recetas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-basis: 50px; }
+
+.steak__titulo, .beef__titulo, .chicken__titulo {
+  background-color: cadetblue;
+  border-radius: 10px;
+  text-align: center; }
+
+.steak__table, .beef__table, .chicken__table {
+  margin-left: 10px;
+  background-color: #fcf6eb; }
+  .steak__table--TH, .beef__table--TH, .chicken__table--TH {
+    background-color: cadetblue;
+    color: white;
+    text-align: center; }
+
+.steak__parrafo, .beef__parrafo, .chicken__parrafo {
+  background-color: rgba(51, 152, 170, 0.7); }
+
+#recetas h3 {
+  color: white; }
+
+/*  Tecnicas 1  */
+.gridtecnicas1 {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-column-gap: 10px;
+  justify-items: right;
+  align-items: flex-end;
+  width: 100%; }
+
+.h1tecnicas1 {
+  width: 26%; }
+
+body {
+  /*background-image: $background;*/
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: top;
+  background-position-x: right;
+  margin: 0px; }
+
+p {
+  margin-left: 10px;
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 25px;
+  word-spacing: 2px;
+  color: white; }
+
+article {
+  margin-top: 0px; }
+
+article h3 {
+  color: white; }
+
+/*  Tecnicas 2  */
+/*  Galeria  */
+.h1galeria {
+  width: 12.5%; }
+
+.carousel {
+  display: flex;
+  justify-content: center; }
+
+.carousel .carousel-item {
+  height: 500px; }
+
+/*  MediaQueries  */
+@media only screen and (max-width: 320px) {
+  .header__titulo {
+    justify-self: center;
+    font-family: "Dancing Script";
+    align-self: flex-start;
+    color: white;
+    margin: 0 0 0 10px;
+    transition: 2s;
+    font-size: 200%; }
+    .header__titulo__img {
+      height: 105px; }
+    .header__titulo__subtitulo {
+      font-size: 80%; }
+  body {
+    background-image: url(./background4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    margin: 0px; }
+  .nav {
+    justify-content: space-evenly;
+    position: relative;
+    margin-left: auto;
+    width: 100%; }
+  .aside__links {
+    display: inline-block; }
+  .aside__links li {
+    margin: 0; }
+  .article {
+    width: 100%;
+    margin: auto;
+    line-height: 20px;
+    word-spacing: 2px; }
+    .article__parrafo {
+      background-color: rgba(51, 152, 170, 0.7);
+      margin-right: 10px; }
+  .footer {
+    font-size: 72%;
+    line-height: normal;
+    line-height: 1;
+    margin: auto;
+    align-items: right;
+    flex-wrap: wrap; }
+  .footer2 {
+    font-size: 80%;
+    margin: 0; }
+  #exampleFormControlTextarea1 {
+    width: 90%;
+    margin: 0 0 0 5%; }
+  .btn-primary {
+    margin: 5% 0 0 0; }
+  .aside {
+    margin: auto;
+    width: 80%; } }
+
+@media only screen and (min-width: 321px) and (max-width: 576px) {
+  .header__titulo {
+    justify-self: center;
+    font-family: "Dancing Script";
+    align-self: center;
+    color: white;
+    margin: 0 0 0 10px;
+    transition: 2s;
+    font-size: 45px; }
+  .header__subtitulo {
+    justify-self: left;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 140%; }
+  .header__img {
+    height: 103px; }
+  .article__parrafo {
+    background-color: rgba(51, 152, 170, 0.7); }
+  .aside:hover {
+    width: 90%; }
+  .aside {
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+    width: 90%;
+    border-radius: 20px;
+    transition: 2s;
+    justify-content: center; }
+  .footer1 {
+    margin: 0 2% 0 10%; }
+  .footer2 {
+    margin: 0 9% 0 0; }
+  .nombreinput {
+    margin: 0 0 5% 0; }
+  .emailinput {
+    margin: 20% 2% 0 0; }
+  body {
+    background-image: url(./background4.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-y: center;
+    background-position-x: center;
+    margin: 0px; }
+  .form-group .form-text {
+    margin: 20% 0 0 0; }
+  .dejanostuconsulta {
+    line-height: 100%; } }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  body {
+    background-image: url(./background4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    background-position-x: right;
+    margin: 0px; }
+  .header {
+    grid-template-columns: 1fr 0.5fr 1fr; }
+    .header__titulo {
+      justify-self: center;
+      font-family: "Dancing Script";
+      align-self: center;
+      color: white;
+      margin: 0 0 0 10px;
+      transition: 2s;
+      font-size: 60px; }
+    .header__img {
+      height: 103px; }
+    .header__subtitulo {
+      font-size: 25px; }
+  .nav {
+    margin: auto; }
+  .nav a {
+    margin: auto;
+    font-size: small;
+    padding: 0; }
+  .nav li {
+    display: inline; }
+  .aside {
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 90%; }
+  .emailinput {
+    margin: 12.5% 1.5% 0 0; }
+  .footer2 {
+    margin: 0 10px; } }
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .aside {
+    margin-left: 300px;
+    margin-right: 300px; }
+  .nav {
+    margin: auto; }
+  .nav a {
+    font-size: 85%; } }
