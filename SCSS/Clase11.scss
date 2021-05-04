@@ -1,6 +1,6 @@
 /*Variables*/
 
-$background: url(./background4.jpg);
+$background: url(../CSS/background4.jpg);
 
 /*Inicio*/
 
@@ -260,7 +260,7 @@ label {
 }
 
 body {
-    /*background-image: $background;*/ 
+    background-image: url(../css/background4.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: top;
