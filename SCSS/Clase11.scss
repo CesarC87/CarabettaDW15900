@@ -1,6 +1,6 @@
 /*Variables*/
 
-$background: url(../CSS/background4.jpg);
+
 
 /*Inicio*/
 
@@ -52,7 +52,7 @@ $background: url(../CSS/background4.jpg);
 
 .section {
     margin: 0;   
-    background-image: $background;
+    background-image: url(/CSS/background4.jpg);
     background-size: cover;
 }
 .descripcion {
@@ -260,7 +260,7 @@ label {
 }
 
 body {
-    background-image: url(../CSS/background4.jpg);
+    background-image: url(./background4.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: top;
@@ -341,7 +341,7 @@ article h3 {
     }   
     
     body {
-        background-image: $background;    
+        background-image: url(/CSS/background4.jpg);    
         background-repeat: no-repeat;
         background-size:cover;
         background-position-y: center;
@@ -447,7 +447,7 @@ article h3 {
         margin: 20% 2% 0 0;
     }
     body {
-        background-image: $background;    
+        background-image: url(/CSS/background4.jpg);    
         background-repeat: no-repeat;
         background-size:auto;
         background-position-y: center;
@@ -464,7 +464,7 @@ article h3 {
 
  @media only screen and (min-width: 600px) and (max-width: 768px) {
     body {
-        background-image: $background;    
+        background-image: url(/CSS/background4.jpg);    
         background-repeat: no-repeat;
         background-size: cover;
         background-position-y: top;
