@@ -4,7 +4,7 @@
   height: 103px;
   width: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 2fr;
   justify-content: space-evenly;
   margin: 0px;
   padding: 0px;
@@ -45,14 +45,14 @@
   background-size: cover; }
 
 .descripcion {
-  background-image: url(../pasta1.jpg);
+  background-image: url(./pasta1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  height: 150px; }
+  height: 110px; }
   .descripcion__parrafo {
     margin: 0 5% 0 5%;
     text-align: center;
