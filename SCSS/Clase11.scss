@@ -432,9 +432,7 @@ article h3 {
             background-color: rgba(51, 152, 170, 0.7);
             margin-right: 10px;
         }
-     }
-
-    
+     }    
      
      .footer {
          font-size: 72%;
@@ -462,19 +460,64 @@ article h3 {
          margin: auto;
          width: 80%;
      }
+     /*Recetas*/
+     body {
+         background-image: url(./background4.jpg);
+     }
+     .h1recetas {       
+            width: 100%;
+            background-color: rgba(255,255,255,0);
+        &__titulo {
+            margin: 10px 0 10px 75px;
+            background-color: cornsilk;
+            border-radius: 20px;
+            width: 50%;
+            font-size: 100%;
+        }
+     }
+     #recetas {
+         display: flex;
+         flex-direction: column;
+     }
+     .steak {
+         &__titulo {
+            font-size: 1.5rem;
+         }
+     }
+     .beef {
+        &__titulo {
+           font-size: 1.2rem;
+        }
+    }
+    .chicken {
+        &__titulo {
+           font-size: 1.5rem;
+        }
+    }
+    table {
+        width: max-content;
+    }
+    li , td {
+        font-size: 0.7rem;
+    }
+    th {
+        font-size: 0.7rem;
+    }
  }
 
  @media only screen and (min-width: 321px) and (max-width: 576px) {
      .header {
         &__titulo {
-                @include mediah1(center, "Dancing Script", center, white, 0 0 0 10px, 2s, 45px);
+                @include mediah1(center, "Dancing Script", baseline, #ad0010, 1.5rem 0 0 0, 2s, 45px);
         }
         &__subtitulo {
                justify-self: left;
                align-self: center;
                font-family: 'Poppins', sans-serif;
                color: rgb(255, 255, 255);
-               font-size: 140%;
+               font-size: 100%;
+               background-color: rgba(255,255,255,0);
+               margin: 0;
            }
            &__img {
                height:103px;
@@ -490,8 +533,7 @@ article h3 {
     }
     .aside {
         display: flex;
-        flex-direction: column;
-        background-color: wheat;    
+        flex-direction: column;        
         width: 90%;
         border-radius: 20px;
         transition: 2s;    

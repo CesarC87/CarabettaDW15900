@@ -319,15 +319,42 @@ article h3 {
     margin: 5% 0 0 0; }
   .aside {
     margin: auto;
-    width: 80%; } }
+    width: 80%; }
+  /*Recetas*/
+  body {
+    background-image: url(./background4.jpg); }
+  .h1recetas, .h1tecnicas1, .h1tecnicas2, .h1galeria {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0); }
+    .h1recetas__titulo, .h1tecnicas1__titulo, .h1tecnicas2__titulo, .h1galeria__titulo {
+      margin: 10px 0 10px 75px;
+      background-color: cornsilk;
+      border-radius: 20px;
+      width: 50%;
+      font-size: 100%; }
+  #recetas {
+    display: flex;
+    flex-direction: column; }
+  .steak__titulo, .beef__titulo, .chicken__titulo {
+    font-size: 1.5rem; }
+  .beef__titulo {
+    font-size: 1.2rem; }
+  .chicken__titulo {
+    font-size: 1.5rem; }
+  table {
+    width: max-content; }
+  li, td {
+    font-size: 0.7rem; }
+  th {
+    font-size: 0.7rem; } }
 
 @media only screen and (min-width: 321px) and (max-width: 576px) {
   .header__titulo {
     justify-self: center;
     font-family: "Dancing Script";
-    align-self: center;
-    color: white;
-    margin: 0 0 0 10px;
+    align-self: baseline;
+    color: #ad0010;
+    margin: 1.5rem 0 0 0;
     transition: 2s;
     font-size: 45px; }
   .header__subtitulo {
@@ -335,7 +362,9 @@ article h3 {
     align-self: center;
     font-family: 'Poppins', sans-serif;
     color: white;
-    font-size: 140%; }
+    font-size: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0; }
   .header__img {
     height: 103px; }
   .article__parrafo {
@@ -345,7 +374,6 @@ article h3 {
   .aside {
     display: flex;
     flex-direction: column;
-    background-color: wheat;
     width: 90%;
     border-radius: 20px;
     transition: 2s;
