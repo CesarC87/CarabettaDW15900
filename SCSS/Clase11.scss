@@ -386,15 +386,19 @@ article h3 {
 }
 
  @media only screen and (max-width: 320px) {
-    .header__titulo {
-        @include mediah1(center, "Dancing Script", flex-start, white, 0 0 0 10px, 2s, 200%);
-
+    .header {
+        &__titulo {
+        @include mediah1(center, "Dancing Script", center, #ad0010, 0 0 0 10px, 2s, 1.5rem);
+        }
         &__img {
             height: 105px;
-            margin: 0 0 0 170px;
+            margin: 0 0 0 10px;
         }
         &__subtitulo {
             font-size: 80%;
+            margin: 0 0 0 0px;
+            color: white;
+            background-color: rgba(255,255,255,0);
         }
     }       
 

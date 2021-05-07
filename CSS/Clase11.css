@@ -265,16 +265,19 @@ article h3 {
   .header__titulo {
     justify-self: center;
     font-family: "Dancing Script";
-    align-self: flex-start;
-    color: white;
+    align-self: center;
+    color: #ad0010;
     margin: 0 0 0 10px;
     transition: 2s;
-    font-size: 200%; }
-    .header__titulo__img {
-      height: 105px;
-      margin: 0 0 0 170px; }
-    .header__titulo__subtitulo {
-      font-size: 80%; }
+    font-size: 1.5rem; }
+  .header__img {
+    height: 105px;
+    margin: 0 0 0 10px; }
+  .header__subtitulo {
+    font-size: 80%;
+    margin: 0 0 0 0px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0); }
   body {
     background-image: url(/CSS/background4.jpg);
     background-repeat: no-repeat;
