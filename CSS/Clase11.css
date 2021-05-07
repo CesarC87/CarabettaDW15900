@@ -36,7 +36,7 @@
     margin: 0 0 0 50px;
     transition: 2s; }
   .header__img {
-    height: 150; }
+    height: 150px; }
   .header__titulo:hover {
     transform: translate(40px, 10px); }
 
@@ -79,7 +79,7 @@ nav .breadcrumb {
 .aside {
   display: flex;
   flex-direction: column;
-  background-color: #fbcb97f2;
+  /*background-color: #fbcb97f2;*/
   width: 50%;
   border-radius: 20px;
   transition: 2s;
@@ -180,6 +180,41 @@ label {
 #recetas h3 {
   color: white; }
 
+.footresto {
+  height: 75px;
+  background-color: black;
+  display: grid;
+  grid-column: 1fr 1fr 1fr;
+  grid-template-areas: "izq centro der"; }
+  .footresto__izq {
+    align-self: center;
+    justify-self: left;
+    grid-area: izq; }
+  .footresto__der {
+    align-self: center;
+    justify-self: center;
+    grid-area: centro; }
+  .footresto .fa-facebook-f {
+    font-size: 20px;
+    color: white;
+    margin: 0 0 0 45px; }
+  .footresto .fa-copyright {
+    font-size: 20px;
+    color: white;
+    margin-right: 70px; }
+  .footresto .fa-instagram {
+    font-size: 20px;
+    color: white;
+    margin: 0 0 0 15px; }
+  .footresto .fa-twitter {
+    font-size: 20px;
+    color: white;
+    margin: 0 0 0 15px; }
+  .footresto .fa-envelope {
+    font-size: 20px;
+    color: white;
+    margin: 0 0 0 15px; }
+
 /*  Tecnicas 1  */
 .gridtecnicas1 {
   display: grid;
@@ -236,7 +271,8 @@ article h3 {
     transition: 2s;
     font-size: 200%; }
     .header__titulo__img {
-      height: 105px; }
+      height: 105px;
+      margin: 0 0 0 170px; }
     .header__titulo__subtitulo {
       font-size: 80%; }
   body {
@@ -273,7 +309,7 @@ article h3 {
   .footer2 {
     font-size: 80%;
     margin: 0; }
-  #exampleFormControlTextarea1 {
+  #exampleformcontroltextarea1 {
     width: 90%;
     margin: 0 0 0 5%; }
   .btn-primary {

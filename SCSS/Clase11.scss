@@ -20,6 +20,7 @@
     &__logo {
         margin: 0;
         justify-self: center; 
+        
     }
     &__subtitulo {
         justify-self: left;
@@ -43,7 +44,7 @@
         transition: 2s;
     }
     &__img {
-        height: 150;
+        height: 150px;
     }
     &__titulo:hover {
         transform: translate(40px,10px);
@@ -93,7 +94,7 @@ nav .breadcrumb {
 .aside {
     display: flex;
     flex-direction: column;
-    background-color: #fbcb97f2;    
+    /*background-color: #fbcb97f2;*/    
     width: 50%;
     border-radius: 20px;
     transition: 2s;    
@@ -251,6 +252,50 @@ label {
     color: rgb(255, 255, 255);        
 }
 
+.footresto {
+    height: 75px;
+    background-color: black;
+    display: grid;
+    grid-column: 1fr 1fr 1fr;
+    grid-template-areas: "izq centro der";
+    &__izq {
+        align-self: center;
+        justify-self: left;
+        grid-area: izq;
+    }
+    &__der {
+        align-self: center;
+        justify-self: center;
+        grid-area: centro;
+    }
+    .fa-facebook-f {
+        font-size: 20px;
+        color: white;        
+        margin: 0 0 0 45px;
+    }
+    .fa-copyright {
+        font-size: 20px;
+        color: white;    
+        margin-right: 70px;            
+        
+    }
+    .fa-instagram {
+        font-size: 20px;
+        color: white;
+        margin: 0 0 0 15px;
+    }
+    .fa-twitter {
+        font-size: 20px;
+        color: white;
+        margin: 0 0 0 15px;
+    }
+    .fa-envelope {
+        font-size: 20px;
+        color: white;
+        margin: 0 0 0 15px;
+    }
+}
+
                             /*  Tecnicas 1  */
 
 .gridtecnicas1 {
@@ -343,15 +388,16 @@ article h3 {
  @media only screen and (max-width: 320px) {
     .header__titulo {
         @include mediah1(center, "Dancing Script", flex-start, white, 0 0 0 10px, 2s, 200%);
+
         &__img {
             height: 105px;
+            margin: 0 0 0 170px;
         }
         &__subtitulo {
             font-size: 80%;
         }
+    }       
 
-    }   
-    
     body {
         background-image: url(/CSS/background4.jpg);    
         background-repeat: no-repeat;
@@ -369,7 +415,7 @@ article h3 {
      .aside__links {    
         display: inline-block;        
     }
-    .aside__links li {
+     .aside__links li {
         margin: 0;
     }
 
@@ -384,8 +430,8 @@ article h3 {
         }
      }
 
+    
      
-
      .footer {
          font-size: 72%;
          line-height: normal;
@@ -397,18 +443,19 @@ article h3 {
      .footer2 {
          font-size: 80%;
          margin: 0;
-     }
-     
-     #exampleFormControlTextarea1 {
+     }     
+
+     #exampleformcontroltextarea1 {
          width: 90%;
          margin: 0 0 0 5%;
      }
+
      .btn-primary {
          margin: 5% 0 0 0;
      }
 
      .aside {
-         margin:auto;
+         margin: auto;
          width: 80%;
      }
  }
