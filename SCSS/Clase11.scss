@@ -142,6 +142,17 @@ nav .breadcrumb {
     background-color: rgb(26, 24, 24);
     margin: 0;
     padding: 0 0 10px 0;
+    &__1 {    
+        align-self: center;
+     }
+     
+     &__1 p {
+        margin: 0;
+     }
+     
+     &__2 {
+         margin: 0 0 0 10%;
+     } 
 } 
 
 form .form-group {
@@ -155,17 +166,7 @@ label {
    margin-top: 10px;
 }
 
-.footer1 {    
-   align-self: center;
-}
 
-.footer1 p {
-   margin: 0;
-}
-
-.footer2 {
-    margin: 0 0 0 10%;
-} 
 .emailinput {
     margin: 5% 1% 0 0;
 }
@@ -252,22 +253,24 @@ label {
     color: rgb(255, 255, 255);        
 }
 
-.footresto {
-    height: 75px;
+.footerbottom {
+    height: 50px;
     background-color: black;
     display: grid;
     grid-column: 1fr 1fr 1fr;
     grid-template-areas: "izq centro der";
     &__izq {
         align-self: center;
-        justify-self: left;
+        justify-self: center;
         grid-area: izq;
     }
+    
     &__der {
-        align-self: center;
-        justify-self: center;
-        grid-area: centro;
+        align-self: center;        
+        grid-area: centro;        
+        margin: 0 0 0 15%;
     }
+    
     .fa-facebook-f {
         font-size: 20px;
         color: white;        
@@ -276,7 +279,7 @@ label {
     .fa-copyright {
         font-size: 20px;
         color: white;    
-        margin-right: 70px;            
+        margin: 0 0 0 25%;            
         
     }
     .fa-instagram {
@@ -315,15 +318,41 @@ label {
 .h1tecnicas1__titulo {
     @extend .h1recetas__titulo;
 }
-
+.merengue__titulo {      
+        background-color: cadetblue;
+        border-radius: 10px;
+        text-align: center;
+        margin-right: 100px;
+        margin-left: 100px;    
+        color: white;
+}
+.cremapastelera__titulo {      
+    background-color: cadetblue;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;    
+    color: white;
+}
+.marinadohierbas__titulo {      
+    background-color: cadetblue;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;    
+    color: white;
+}
 body {
     background-image: url(./background4.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: top;
     background-position-x: right;
-    margin: 0px;
-    
+    margin: 0px;    
+    height: 100%;
+}
+html {
+    height: 100%;
 }
 
 p {
@@ -340,6 +369,10 @@ article {
 
 article h3 {
     color: rgb(255, 255, 255);
+}
+
+.page-wraper {
+    min-height: 100%;
 }
 
                          /*  Tecnicas 2  */
@@ -441,11 +474,12 @@ article h3 {
          margin: auto;
          align-items: right;         
          flex-wrap: wrap;
+         &__2 {
+            font-size: 80%;
+            margin: 0;
+        }     
      }
-     .footer2 {
-         font-size: 80%;
-         margin: 0;
-     }     
+     
 
      #exampleformcontroltextarea1 {
          width: 90%;
@@ -539,10 +573,10 @@ article h3 {
         transition: 2s;    
         justify-content: center;
     }
-    .footer1 {
+    .footer__1 {
         margin: 0 2% 0 10%;
     }
-    .footer2 {
+    .footer__2 {
         margin: 0 9% 0 0;
     }
     .nombreinput {
@@ -609,7 +643,7 @@ article h3 {
     .emailinput {
         margin: 12.5% 1.5% 0 0;
     }
-    .footer2 {
+    .footer__2 {
         margin: 0 10px;
     }
         
