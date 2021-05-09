@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Variables*/
 /*Inicio*/
 .header {
@@ -163,7 +164,7 @@ label {
   margin-left: 100px; }
 
 .steak__table, .beef__table, .chicken__table {
-  margin-left: 10px;
+  margin-left: 3.5rem;
   background-color: #fcf6eb; }
   .steak__table--TH, .beef__table--TH, .chicken__table--TH {
     background-color: cadetblue;
@@ -307,7 +308,7 @@ article h3 {
     color: white;
     background-color: rgba(255, 255, 255, 0); }
   body {
-    background-image: url(/CSS/background4.jpg);
+    background-image: none;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
@@ -340,6 +341,22 @@ article h3 {
     .footer__2 {
       font-size: 80%;
       margin: 0; }
+  .footerbottom__der {
+    align-self: center;
+    grid-area: centro;
+    margin: 0 0 0 0;
+    font-size: 65%; }
+  .footerbottom__izq {
+    justify-self: left; }
+    .footerbottom__izq .fa-facebook-f {
+      font-size: 75%;
+      margin: 0 0 0 25px; }
+    .footerbottom__izq .fa-instagram {
+      font-size: 75%; }
+    .footerbottom__izq .fa-twitter {
+      font-size: 75%; }
+    .footerbottom__izq .fa-envelope {
+      font-size: 75%; }
   #exampleformcontroltextarea1 {
     width: 90%;
     margin: 0 0 0 5%; }
@@ -348,9 +365,11 @@ article h3 {
   .aside {
     margin: auto;
     width: 80%; }
+  form .form-group {
+    margin: 0 2% 0 0;
+    padding: 0;
+    height: 3rem; }
   /*Recetas*/
-  body {
-    background-image: url(./background4.jpg); }
   .h1recetas, .h1tecnicas1, .h1tecnicas2, .h1galeria {
     width: 100%;
     background-color: rgba(255, 255, 255, 0); }
@@ -358,13 +377,15 @@ article h3 {
       margin: 10px 0 10px 75px;
       background-color: cornsilk;
       border-radius: 20px;
-      width: 50%;
+      width: 46%;
       font-size: 100%; }
   #recetas {
     display: flex;
     flex-direction: column; }
   .steak__titulo, .beef__titulo, .chicken__titulo {
     font-size: 1.5rem; }
+  .steak__parrafo, .beef__parrafo, .chicken__parrafo {
+    margin-right: 0.7rem; }
   .beef__titulo {
     font-size: 1.2rem; }
   .chicken__titulo {
@@ -374,7 +395,34 @@ article h3 {
   li, td {
     font-size: 0.7rem; }
   th {
-    font-size: 0.7rem; } }
+    font-size: 0.7rem; }
+  /*Tecnicas Básicas*/
+  .gridtecnicas1 {
+    display: flex;
+    flex-direction: column; }
+    .gridtecnicas1 .p {
+      color: black;
+      margin: 0 5% 0 5%;
+      letter-spacing: 0;
+      word-spacing: 0; }
+  /*Técnicas Avanzadas*/
+  .gridtecnicas2 {
+    display: flex;
+    flex-direction: column; }
+    .gridtecnicas2 .p {
+      color: black;
+      margin: 0 5% 0 5%;
+      letter-spacing: 0;
+      word-spacing: 0; }
+    .gridtecnicas2 h3 {
+      text-align: center; }
+  .h1tecnicas2__titulo {
+    margin: 10px 0 10px 90px;
+    background-color: cornsilk;
+    border-radius: 20px;
+    width: 35%;
+    font-size: 100%;
+    text-align: center; } }
 
 @media only screen and (min-width: 321px) and (max-width: 576px) {
   .header__titulo {
@@ -396,7 +444,8 @@ article h3 {
   .header__img {
     height: 103px; }
   .article__parrafo {
-    background-color: rgba(51, 152, 170, 0.7); }
+    background-color: rgba(51, 152, 170, 0.7);
+    margin: 0 2% 0 2%; }
   .aside:hover {
     width: 90%; }
   .aside {

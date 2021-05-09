@@ -204,7 +204,7 @@ label {
         margin-left: 100px;
     }
     &__table {
-        margin-left: 10px;
+        margin-left: 3.5rem;
         background-color: rgb(252, 246, 235);
         &--TH {
             background-color: cadetblue;
@@ -435,8 +435,8 @@ article h3 {
         }
     }       
 
-    body {
-        background-image: url(/CSS/background4.jpg);    
+    body {         
+        background-image: none;
         background-repeat: no-repeat;
         background-size:cover;
         background-position-y: center;
@@ -479,7 +479,28 @@ article h3 {
             margin: 0;
         }     
      }
-     
+     .footerbottom__der {
+        align-self: center;
+        grid-area: centro;
+        margin: 0 0 0 0;
+        font-size: 65%;
+    }
+     .footerbottom__izq  {
+         justify-self: left;
+        .fa-facebook-f {
+            font-size: 75%;
+            margin: 0 0 0 25px;
+        }
+        .fa-instagram {
+            font-size: 75%;
+        }
+        .fa-twitter {
+            font-size: 75%;
+        }
+        .fa-envelope {
+            font-size: 75%;
+        }
+    }
 
      #exampleformcontroltextarea1 {
          width: 90%;
@@ -494,10 +515,15 @@ article h3 {
          margin: auto;
          width: 80%;
      }
+
+     form .form-group {
+        margin: 0 2% 0 0;
+        padding: 0;
+        height: 3rem;
+    }
+
      /*Recetas*/
-     body {
-         background-image: url(./background4.jpg);
-     }
+     
      .h1recetas {       
             width: 100%;
             background-color: rgba(255,255,255,0);
@@ -505,7 +531,7 @@ article h3 {
             margin: 10px 0 10px 75px;
             background-color: cornsilk;
             border-radius: 20px;
-            width: 50%;
+            width: 46%;
             font-size: 100%;
         }
      }
@@ -516,6 +542,9 @@ article h3 {
      .steak {
          &__titulo {
             font-size: 1.5rem;
+         }
+         &__parrafo {
+             margin-right: 0.7rem;
          }
      }
      .beef {
@@ -536,6 +565,40 @@ article h3 {
     }
     th {
         font-size: 0.7rem;
+    }
+    /*Tecnicas Básicas*/
+
+    .gridtecnicas1 {
+        display: flex;
+        flex-direction: column;
+        .p {
+            color: black;
+            margin: 0 5% 0 5%;
+            letter-spacing: 0;
+            word-spacing: 0;
+        }
+    }
+    /*Técnicas Avanzadas*/
+    .gridtecnicas2 {
+        display: flex;
+        flex-direction: column;
+        .p {
+            color: black;
+            margin: 0 5% 0 5%;
+            letter-spacing: 0;
+            word-spacing: 0;
+        }
+        h3 {
+            text-align: center;
+        }
+    }
+    .h1tecnicas2__titulo {
+        margin: 10px 0 10px 90px;
+        background-color: cornsilk;
+        border-radius: 20px;
+        width: 35%;
+        font-size: 100%;
+        text-align: center;
     }
  }
 
@@ -560,6 +623,7 @@ article h3 {
      
     .article__parrafo {
         background-color: rgba(51, 152, 170, 0.7);
+        margin: 0 2% 0 2%;
     }
 
     .aside:hover {
