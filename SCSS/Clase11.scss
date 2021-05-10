@@ -621,9 +621,59 @@ article h3 {
            }
         }         
      
-    .article__parrafo {
+    .article {
+        &__parrafo {
         background-color: rgba(51, 152, 170, 0.7);
         margin: 0 2% 0 2%;
+        }
+        &__img {
+            margin: 5% 0 0 26%;
+        }    
+    }
+    #recetas {
+        display: flex;
+        flex-direction: column;
+    }
+    .h1recetas {
+        width: 0;
+        margin: 2% 0 2% 16%;
+        &__titulo {
+            width: max-content;
+        }
+    }
+    .steak {
+        &__table {
+            margin: 0 0 0 25%;
+        }
+    }
+    .gridtecnicas1 {
+        display: flex;
+        flex-direction: column;
+        .p {
+            color: black;
+        }
+    }
+    .h1tecnicas1 {
+        width: 0;
+        margin: 2% 0 2% 19%;
+        &__titulo {           
+            width: max-content;
+        }
+    }
+    .gridtecnicas2 {
+        display: flex;
+        flex-direction: column;
+        .p {
+            color: black;
+        }
+        h3 {            
+            background-color: cadetblue;
+            border-radius: 10px;
+            text-align: center;
+            margin-right: 100px;
+            margin-left: 100px;
+            color: white;
+        }
     }
 
     .aside:hover {
