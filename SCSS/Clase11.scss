@@ -67,7 +67,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "izq centro der"
-                          "video video video";
+                          "video1 video2 video3";
 }
 .novedades {
     grid-area: izq;
@@ -80,6 +80,10 @@
 }
 nav .breadcrumb {
     margin-bottom: 0;
+}
+
+.video  {
+    grid-area: video2;
 }
 .aside {
     display: flex;
@@ -96,21 +100,25 @@ nav .breadcrumb {
     & a {
         color: #686c71;        
     }
-    & .linkepicurious {
-        align-self: center;
-        margin-right: 3rem;
+    & .animacionepicurious {
+        display: flex;
+        align-items: center;
+        margin: 0 5% 0 0;
     }
-    & .linktaste {
-        align-self: center;
-        margin-right: 3rem;
+    & .animaciontaste {
+        display: flex;
+        align-items: center;
+        margin: 0 5% 0 0;
     }
-    & .linkatk {
-        align-self: center;
-        margin-right: 3rem;
+    & .animacionatk {
+        display: flex;
+        align-items: center;
+        margin: 0 5% 0 0;
     }
-    & .linkfood {
-        align-self: center;
-        margin-right: 3rem;
+    & .animacionfood {
+        display: flex;
+        align-items: center;
+        margin: 0 5% 0 0;
     }
     
 }
@@ -134,6 +142,8 @@ nav .breadcrumb {
         font-weight: 400;
     }
 }
+
+/*ANIMACION ASIDE*/
 #TrianguloAzul1,
 #TrianguloAzul2,
 #TrianguloVerde {
@@ -141,18 +151,52 @@ nav .breadcrumb {
 }
 
 #TrianguloAzul1 {
-    transform: translateX(-100%);
-    color: chartreuse;
+    transform: translateX(-100%);    
 }
 
-svg:hover #TrianguloAzul2 {
+
+.animacionepicurious:hover  #TrianguloAzul2 {
     transform: translateX(20%);  
 }
-svg:hover #TrianguloVerde {
+
+.animacionepicurious:hover  #TrianguloVerde {
     transform: translateX(40%);  
     opacity: 0;
 }
-svg:hover #TrianguloAzul1 {
+.animacionepicurious:hover  #TrianguloAzul1 {
+    transform: translateX(5%);  
+}
+.animacionatk:hover  #TrianguloAzul2 {
+    transform: translateX(20%);  
+}
+
+.animacionatk:hover  #TrianguloVerde {
+    transform: translateX(40%);  
+    opacity: 0;
+}
+.animacionatk:hover  #TrianguloAzul1 {
+    transform: translateX(5%);  
+}
+.animaciontaste:hover  #TrianguloAzul2 {
+    transform: translateX(20%);  
+}
+
+.animaciontaste:hover  #TrianguloVerde {
+    transform: translateX(40%);  
+    opacity: 0;
+}
+.animaciontaste:hover  #TrianguloAzul1 {
+    transform: translateX(5%);  
+}
+.animacionfood:hover  #TrianguloAzul2 {
+    transform: translateX(20%);  
+}
+
+.animacionfood:hover  #TrianguloVerde {
+    transform: translateX(40%);  
+    opacity: 0;
+}
+.animacionfood:hover  #TrianguloAzul1 {
     transform: translateX(5%);  
 }
 
