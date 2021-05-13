@@ -59,13 +59,8 @@ nav .breadcrumb {
 
 .aside {
   display: flex;
-  flex-direction: column;
-  width: 50%;
-  border-radius: 20px;
-  transition: 2s;
+  flex-direction: row;
   justify-content: center; }
-  .aside:hover {
-    width: 75%; }
   .aside__links {
     display: flex;
     flex-direction: row;
@@ -75,20 +70,49 @@ nav .breadcrumb {
     font-size: 15px;
     margin-left: 0;
     padding: 0; }
-  .aside h2 {
+  .aside .linkepicurious {
+    align-self: center;
+    margin-right: 3rem; }
+  .aside .linktaste {
+    align-self: center;
+    margin-right: 3rem; }
+  .aside .linkatk {
+    align-self: center;
+    margin-right: 3rem; }
+  .aside .linkfood {
+    align-self: center;
+    margin-right: 3rem; }
+
+.asideFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 10px 0; }
+  .asideFlex h2 {
     padding: 5px;
     text-align: center;
     margin: 0;
     font-family: 'Source Serif Pro', serif;
     font-weight: 400; }
-  .aside li {
-    margin-bottom: 10px; }
 
-.asideFlex {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 0 0 10px 0; }
+#TrianguloAzul1,
+#TrianguloAzul2,
+#TrianguloVerde {
+  transition: all 1s ease; }
+
+#TrianguloAzul1 {
+  transform: translateX(-100%);
+  color: chartreuse; }
+
+svg:hover #TrianguloAzul2 {
+  transform: translateX(20%); }
+
+svg:hover #TrianguloVerde {
+  transform: translateX(40%);
+  opacity: 0; }
+
+svg:hover #TrianguloAzul1 {
+  transform: translateX(5%); }
 
 .footer {
   display: flex;
