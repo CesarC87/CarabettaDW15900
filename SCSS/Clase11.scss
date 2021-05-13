@@ -49,7 +49,9 @@
     }
 }  
 
-.article__titulo {
+.novedades__titulo,
+.panaderia__titulo,
+.pasteleria__titulo {
     text-decoration: underline;    
     color: rgb(255, 255, 255);    
     margin: 0 0 0 2%;
@@ -61,11 +63,21 @@
     margin: 0;   
     background-image: url(../background4.jpg);
     background-size: cover;
-    /*display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-areas: "izq der";*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "izq centro der"
+                          "video video video";
 }
-
+.novedades {
+    grid-area: izq;
+}
+.panaderia {
+    grid-area: centro;
+}
+.pasteleria {
+    grid-area: der;
+}
 nav .breadcrumb {
     margin-bottom: 0;
 }
@@ -73,17 +85,16 @@ nav .breadcrumb {
     display: flex;
     flex-direction: row;    
     justify-content: center;
+    background-color: rgb(255, 255, 255);
     
     &__links {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
+    
     & a {
-        line-height: 25px;
-        font-size: 15px;
-        margin-left: 0;
-        padding: 0;
+        color: #686c71;        
     }
     & .linkepicurious {
         align-self: center;
@@ -103,6 +114,10 @@ nav .breadcrumb {
     }
     
 }
+.aside a:hover {
+    text-decoration: none;
+    color: darken($color: #686c71, $amount: 21);
+}
 
 
 .asideFlex {
@@ -110,6 +125,7 @@ nav .breadcrumb {
     flex-direction: column;
     justify-content: center;
     margin: 0 0 10px 0;
+    background-color: white;
     & h2 {
         padding: 5px;
         text-align: center;

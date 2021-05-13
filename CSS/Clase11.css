@@ -39,7 +39,9 @@
   .header__titulo:hover {
     transform: translate(40px, 10px); }
 
-.article__titulo {
+.novedades__titulo,
+.panaderia__titulo,
+.pasteleria__titulo {
   text-decoration: underline;
   color: white;
   margin: 0 0 0 2%;
@@ -50,9 +52,19 @@
   margin: 0;
   background-image: url(../background4.jpg);
   background-size: cover;
-  /*display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-areas: "izq der";*/ }
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "izq centro der" "video video video"; }
+
+.novedades {
+  grid-area: izq; }
+
+.panaderia {
+  grid-area: centro; }
+
+.pasteleria {
+  grid-area: der; }
 
 nav .breadcrumb {
   margin-bottom: 0; }
@@ -60,16 +72,14 @@ nav .breadcrumb {
 .aside {
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+  background-color: white; }
   .aside__links {
     display: flex;
     flex-direction: row;
     justify-content: space-around; }
   .aside a {
-    line-height: 25px;
-    font-size: 15px;
-    margin-left: 0;
-    padding: 0; }
+    color: #686c71; }
   .aside .linkepicurious {
     align-self: center;
     margin-right: 3rem; }
@@ -83,11 +93,16 @@ nav .breadcrumb {
     align-self: center;
     margin-right: 3rem; }
 
+.aside a:hover {
+  text-decoration: none;
+  color: #353739; }
+
 .asideFlex {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 0 10px 0; }
+  margin: 0 0 10px 0;
+  background-color: white; }
   .asideFlex h2 {
     padding: 5px;
     text-align: center;
