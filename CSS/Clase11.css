@@ -38,13 +38,13 @@
   .header__titulo:hover {
     transform: translate(40px, 10px); }
 
-.novedades__titulo,
+.novedades__h2,
 .panaderia__titulo,
 .pasteleria__titulo {
   text-decoration: underline;
   color: white;
   margin: 0 0 0 2%;
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 400; }
 
 .section {
@@ -53,17 +53,34 @@
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "izq centro der" "video1 video2 video3"; }
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "izq centro der" "video1 video2 video3" "izq2 centro2 der2"; }
 
 .novedades {
-  grid-area: izq; }
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "noveizq novecentro noveder"; }
+  .novedades__titulo {
+    grid-area: novecentro;
+    text-align: center; }
+  .novedades__izq {
+    grid-area: noveizq; }
+  .novedades__centro {
+    grid-area: novecentro; }
+    .novedades__centro .novedades__img {
+      margin: 10% 0 0 20%; }
+    .novedades__centro .novedades__parrafo {
+      font-family: 'Playfair Display', serif;
+      font-weight: 400; }
+  .novedades__der {
+    grid-area: noveder; }
 
 .panaderia {
-  grid-area: centro; }
+  grid-area: izq2; }
 
 .pasteleria {
-  grid-area: der; }
+  grid-area: der2; }
 
 nav .breadcrumb {
   margin-bottom: 0; }
