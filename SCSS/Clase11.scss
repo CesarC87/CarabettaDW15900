@@ -81,19 +81,34 @@
     }
     &__izq {
         grid-area: noveizq;
+        p {
+            font-family: 'Playfair Display', serif;
+            font-weight: 400;
+        }
+        img {
+            margin: 10% 0 0 20%;
+        }
     }
     &__centro {
         grid-area: novecentro;
-        .novedades__img {
+        img {
             margin: 10% 0 0 20%;
         }
-        .novedades__parrafo {
+        p {
             font-family: 'Playfair Display', serif;
             font-weight: 400;
         }
     }
     &__der {
         grid-area: noveder;
+        img {
+            height: 150px;
+            margin: 10% 0 0 20%;
+        }
+        p {
+            font-family: 'Playfair Display', serif;
+            font-weight: 400;
+        }
     }
 }
 .panaderia {

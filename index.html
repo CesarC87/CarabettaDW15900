@@ -1,219 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="MixItUp reúne las mejores recetas y técnicas culinarias inspiradas en los mejores chefs del mundo">
-        <meta name="keywords" content="RECETAS, ESTRELLA MICHELIN, PASTELERÍA, COCINA, GOURMET, SALSAS MADRE">
-        <title>Técnicas y recetas de la gastronomía mundial</title>
-        <link rel="stylesheet" href="./CSS/Clase11.css">
-        <!--Fonts-->        
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,400&display=swap" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css2?family=Antonio&family=Dancing+Script:wght@700&family=Orelega+One&family=Poppins&family=Quicksand:wght@600&family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css2?family=Nixie+One&family=Source+Serif+Pro:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
-        <!--Link a BS-->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-          
-        <!--Link a Icons(FontAwesome)-->
-        <script src="https://kit.fontawesome.com/93f7a55087.js" crossorigin="anonymous"></script>
-        
-    </head>
 
-    <body>           
-        <header>     <!--HEADER-->
-          <div class="header">            
-            <h3 class="header__titulo">Mix It Up</h3>  
-            <div class="header__logo">
-              <img class="header__img" src="Product.jpeg">      
-            </div>
-            <h1 class="header__subtitulo">Novedades, recetas y técnicas <br>de la gastronomía mundial</h1>               
-          </div>
-          <nav>          <!--NAV-->
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item active" aria-current="inicio.html">Home</li>
-              <li class="breadcrumb-item"><a href="recetas.html">Recetas</a></li>            
-              <li class="breadcrumb-item"><a href="tecnicas1.html">Técnicas básicas</a></li>
-              <li class="breadcrumb-item"><a href="tecnicas2.html">Técnicas avanzadas</a></li>
-              <li class="breadcrumb-item"><a href="imagenes.html">Galería</a></li>            
-            </ol>         
-           
-          </nav>   
-                     
-        </header>    <!--/HEADER-->    
-      
-        
-       <!--SECTION-->
-          <section>
-            <div class="section"> <!--Section Grid-->
-              <div class="novedades"> <!--Novedades Grid-->
-                <div class="novedades__titulo">
-                  <h3 class="novedades__h2">Novedades</h3>
-                </div>
-                <div class="novedades__izq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="MixItUp reúne las mejores recetas y técnicas culinarias inspiradas en los mejores chefs del mundo">
+  <meta name="keywords" content="RECETAS, ESTRELLA MICHELIN, PASTELERÍA, COCINA, GOURMET, SALSAS MADRE">
+  <title>Técnicas y recetas de la gastronomía mundial</title>
+  <link rel="stylesheet" href="./CSS/Clase11.css">
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,400&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Antonio&family=Dancing+Script:wght@700&family=Orelega+One&family=Poppins&family=Quicksand:wght@600&family=Zilla+Slab+Highlight:wght@700&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nixie+One&family=Source+Serif+Pro:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!--Link a BS-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
-                </div>
-                <div class="novedades__centro">
-                  <img class="novedades__img" src="https://truffle-assets.imgix.net/d5617d50-thumbnail-risotto-landscape.png" alt="Imágen de Risotto" height="150"> <hr>
-                  <p class="novedades__parrafo">De otoño: Risotto de hongos, un clásico italiano que perfila para este frío otoñal</p> 
-                </div>
-                <div class="novedades__der">
-                  
-                </div>
-                
-                
-              </div>
-              <div class="panaderia">
-                <h3 class="panaderia__titulo">Panadería</h3>
-                <p class="panaderia__parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-                <img class="panaderia__img" src="beefWellington.webp" alt="Imágen de Beef Wellington" height="150"> <hr>
-              </div>
-              <div class="pasteleria">
-                <h3 class="pasteleria__titulo">Pastelería</h3>
-                <p class="pasteleria__parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,<br> sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
-              </div>
-              <div class="video">
-                <iframe class="video__masterclass" width="560" height="315" src="https://www.youtube.com/embed/mhtC2tqdhwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-            </div>
-            
-          </section>
-     
-      
-          <aside>
-           <div class="asideFlex">
-            <h2>Otros sitios de interés:</h2>
-            <div class="aside">                           
-               
-                <div class="animacionepicurious">            
-                  <svg xmlns="http://www.w3.org/2000/svg" width="120" height="100" viewBox="0 0 120 100" fill="none">
-                    <g id="Frame 1">
-                    <path id="TrianguloVerde" d="M63 48.2679C64.3333 49.0377 64.3333 50.9623 63 51.7321L31.5 69.9186C30.1667 70.6884 28.5 69.7261 28.5 68.1865L28.5 31.8135C28.5 30.2739 30.1667 29.3116 31.5 30.0814L63 48.2679Z" fill="#0FEC32" fill-opacity="0.55"/>
-                    <g id="Azules">
-                    <path id="TrianguloAzul2" d="M47 48.2679C48.3333 49.0378 48.3333 50.9622 47 51.732L15.5 69.9186C14.1667 70.6884 12.5 69.7261 12.5 68.1865L12.5 31.8135C12.5 30.2739 14.1667 29.3116 15.5 30.0814L47 48.2679Z" fill="#1387AC" fill-opacity="0.65"/>
-                    <path id="TrianguloAzul1" d="M47 48.2679C48.3333 49.0378 48.3333 50.9622 47 51.732L15.5 69.9186C14.1667 70.6884 12.5 69.7261 12.5 68.1865L12.5 31.8135C12.5 30.2739 14.1667 29.3116 15.5 30.0814L47 48.2679Z" fill="#AC131D" fill-opacity="0.65"/>
-                    </g>
-                    </g>
-                  </svg>
-                  <a href="https://www.epicurious.com/" target="_blank" class="linkepicurious">Epicurious</a>
-                </div>              
-                <div class="animacionatk">            
-                    <svg xmlns="http://www.w3.org/2000/svg" width="120" height="100" viewBox="0 0 120 100" fill="none">
-                      <g id="Frame 1">
-                      <path id="TrianguloVerde" d="M63 48.2679C64.3333 49.0377 64.3333 50.9623 63 51.7321L31.5 69.9186C30.1667 70.6884 28.5 69.7261 28.5 68.1865L28.5 31.8135C28.5 30.2739 30.1667 29.3116 31.5 30.0814L63 48.2679Z" fill="#0FEC32" fill-opacity="0.55"/>
-                      <g id="Azules">
-                      <path id="TrianguloAzul2" d="M47 48.2679C48.3333 49.0378 48.3333 50.9622 47 51.732L15.5 69.9186C14.1667 70.6884 12.5 69.7261 12.5 68.1865L12.5 31.8135C12.5 30.2739 14.1667 29.3116 15.5 30.0814L47 48.2679Z" fill="#1387AC" fill-opacity="0.65"/>
-                      <path id="TrianguloAzul1" d="M47 48.2679C48.3333 49.0378 48.3333 50.9622 47 51.732L15.5 69.9186C14.1667 70.6884 12.5 69.7261 12.5 68.1865L12.5 31.8135C12.5 30.2739 14.1667 29.3116 15.5 30.0814L47 48.2679Z" fill="#AC131D" fill-opacity="0.65"/>
-                      </g>
-                      </g>
-                    </svg>
-                    <a href="https://www.americastestkitchen.com/" target="_blank">America's test<br> kitchen</a>
-                </div>                
-                <div class="animaciontaste">            
-                      <svg xmlns="http://www.w3.org/2000/svg" width="120" height="100" viewBox="0 0 120 100" fill="none">
-                        <g id="Frame 1">
-                        <path id="TrianguloVerde" d="M63 48.2679C64.3333 49.0377 64.3333 50.9623 63 51.7321L31.5 69.9186C30.1667 70.6884 28.5 69.7261 28.5 68.1865L28.5 31.8135C28.5 30.2739 30.1667 29.3116 31.5 30.0814L63 48.2679Z" fill="#0FEC32" fill-opacity="0.55"/>
-                        <g id="Azules">
-                        <path id="TrianguloAzul2" d="M47 48.2679C48.3333 49.0378 48.3333 50.9622 47 51.732L15.5 69.9186C14.1667 70.6884 12.5 69.7261 12.5 68.1865L12.5 31.8135C12.5 30.2739 14.1667 29.3116 15.5 30.0814L47 48.2679Z" fill="#1387AC" fill-opacity="0.65"/>
-                        <path id="TrianguloAzul1" d="M47 48.2679C48.3333 49.0378 48.3333 50.9622 47 51.732L15.5 69.9186C14.1667 70.6884 12.5 69.7261 12.5 68.1865L12.5 31.8135C12.5 30.2739 14.1667 29.3116 15.5 30.0814L47 48.2679Z" fill="#AC131D" fill-opacity="0.65"/>
-                        </g>
-                        </g>
-                      </svg>
-                      <a href="https://www.tastemade.com/" target="_blank">Tastemade</a>
-                </div>                      
-                <div class="animacionfood">            
-                        <svg xmlns="http://www.w3.org/2000/svg" width="120" height="100" viewBox="0 0 120 100" fill="none">
-                          <g id="Frame 1">
-                          <path id="TrianguloVerde" d="M63 48.2679C64.3333 49.0377 64.3333 50.9623 63 51.7321L31.5 69.9186C30.1667 70.6884 28.5 69.7261 28.5 68.1865L28.5 31.8135C28.5 30.2739 30.1667 29.3116 31.5 30.0814L63 48.2679Z" fill="#0FEC32" fill-opacity="0.55"/>
-                          <g id="Azules">
-                          <path id="TrianguloAzul2" d="M47 48.2679C48.3333 49.0378 48.3333 50.9622 47 51.732L15.5 69.9186C14.1667 70.6884 12.5 69.7261 12.5 68.1865L12.5 31.8135C12.5 30.2739 14.1667 29.3116 15.5 30.0814L47 48.2679Z" fill="#1387AC" fill-opacity="0.65"/>
-                          <path id="TrianguloAzul1" d="M47 48.2679C48.3333 49.0378 48.3333 50.9622 47 51.732L15.5 69.9186C14.1667 70.6884 12.5 69.7261 12.5 68.1865L12.5 31.8135C12.5 30.2739 14.1667 29.3116 15.5 30.0814L47 48.2679Z" fill="#AC131D" fill-opacity="0.65"/>
-                          </g>
-                          </g>
-                        </svg>
-                        <a href="https://www.food.com/" target="_blank">Food</a>
-                </div>             
-                  
-                             
-               
-            </div>
-           </div>
-          </aside>
+  <!--Link a Icons(FontAwesome)-->
+  <script src="https://kit.fontawesome.com/93f7a55087.js" crossorigin="anonymous"></script>
 
-          <!--<footer>-->
-    <footer>
-      <div class="footer">        
-          <div class="footer__1">
-            <p>Contacto:<a href="#">pepe@elgordo.com</a></p>            
-            <form action="">
-              <div class="form-group"> <!--Nombre-->
-                <label for="exampleinputName" class="dejanostuconsulta">Dejanos tus consultas y te responderemos a la brevedad!</label> <br>
-                <input class="nombreinput"type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
-              </div>
-              <div class="form-group"> <!--Email-->
-                <label for="exampleInputEmail1"></label>
-                <input class="emailinput"type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-                <small id="emailHelp" class="form-text text-muted">No compartimos tu email con nadie.</small>
-              </div>                               
-          </div>
-          <div class="footer__2">
-                ¿Cómo nos conociste?: 
-                
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                  <label class="form-check-label" for="inlineCheckbox1">Facebook</label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                  <label class="form-check-label" for="inlineCheckbox2">Instagram</label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                  <label class="form-check-label" for="inlineCheckbox3">Otros</label>
-                </div>
-                <div class="dropdown"> <!--Newsletter-->
-                  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                    ¿Te gustaría subscribirte al newsletter?
-                  </button>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Si</a>
-                    <a class="dropdown-item" href="#">No</a>                    
-                  </div>
-                  </div>                  
-               
-               
-                  <div class="form-group"> <!--TextArea-->
-                    <label for="exampleformcontroltextarea1">Dejanos tu consulta</label>
-                    <textarea class="form-control" id="exampleformcontroltextarea1" rows="3"></textarea>
-                  </div>
-                
-                <button type="reset" class="btn btn-warning">Borrar todo</button>
-                <button type="button" class="btn btn-success">Enviar</button>
-            </form>
-          </div>
-        
+</head>
+
+<body>
+  <header>
+    <!--HEADER-->
+    <div class="header">
+      <h3 class="header__titulo">Mix It Up</h3>
+      <div class="header__logo">
+        <img class="header__img" src="Product.jpeg">
+      </div>
+      <h1 class="header__subtitulo">Novedades, recetas y técnicas <br>de la gastronomía mundial</h1>
+    </div>
+    <nav>
+      <!--NAV-->
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="inicio.html">Home</li>
+        <li class="breadcrumb-item"><a href="recetas.html">Recetas</a></li>
+        <li class="breadcrumb-item"><a href="tecnicas1.html">Técnicas básicas</a></li>
+        <li class="breadcrumb-item"><a href="tecnicas2.html">Técnicas avanzadas</a></li>
+        <li class="breadcrumb-item"><a href="imagenes.html">Galería</a></li>
+      </ol>
+
+    </nav>
+
+  </header>
+  <!--/HEADER-->
+
+
+  <!--SECTION-->
+  <section>
+    <div class="section">
+      <!--Section Grid-->
+      <div class="novedades">
+        <!--Novedades Grid-->
+        <div class="novedades__titulo">
+          <h3 class="novedades__h2">Novedades</h3>
         </div>
-        <div class="footerbottom">
-          <div class="footerbottom__izq">  
-            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a> 
-            <a href="https://www.Instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.gmail.com/" target="_blank"><i class="far fa-envelope"></i></a>
-          </div>  
-          <div class="footerbottom__der">
-            &copy; MixitUp | By César Carabetta
+        <div class="novedades__izq">
+          <img class="beefwell__img" src="beefWellington.webp" alt="Imágen de Beef Wellington" height="150">
+          <p class="beefwell__parrafo">Beef Wellington:<br> Un plato de estrella <br>michelin, en tu casa</p>
+          <hr>
+        </div>
+        <div class="novedades__centro">
+          <img class="novedades__img" src="https://truffle-assets.imgix.net/d5617d50-thumbnail-risotto-landscape.png"
+            alt="Imágen de Risotto" height="150">
+          <hr>
+          <p class="novedades__risotto">De otoño: Risotto de hongos, un clásico italiano que perfila para este frío
+            otoñal</p>
+        </div>
+        <div class="novedades__der">
+          <img class="novedades__img" src="gyoza.jpg" alt="Imágen de gyozas">
+          <p class="novedades__gyoza">Gyozas: Manjar directo de Asia A probar!</p>
+        </div>
+
+
+      </div>
+      <div class="panaderia">
+        <h3 class="panaderia__titulo">Panadería</h3>
+
+      </div>
+      <div class="pasteleria">
+        <h3 class="pasteleria__titulo">Pastelería</h3>
+        <p class="pasteleria__parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+          esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,<br> sunt in culpa
+          qui officia deserunt mollit anim id est laborum.</p>
+        <hr>
+      </div>
+      <div class="video">
+        <iframe class="video__masterclass" width="560" height="315" src="https://www.youtube.com/embed/mhtC2tqdhwU"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+
+  </section>
+
+
+  <aside>
+    <div class="asideFlex">
+      <h2>Otros sitios de interés:</h2>
+      <div class="aside">
+
+        <div class="animacionepicurious">
+          <svg xmlns="http://www.w3.org/2000/svg" width="120" height="100" viewBox="0 0 120 100" fill="none">
+            <g id="Frame 1">
+              <path id="TrianguloVerde"
+                d="M63 48.2679C64.3333 49.0377 64.3333 50.9623 63 51.7321L31.5 69.9186C30.1667 70.6884 28.5 69.7261 28.5 68.1865L28.5 31.8135C28.5 30.2739 30.1667 29.3116 31.5 30.0814L63 48.2679Z"
+                fill="#0FEC32" fill-opacity="0.55" />
+              <g id="Azules">
+                <path id="TrianguloAzul2"
+                  d="M47 48.2679C48.3333 49.0378 48.3333 50.9622 47 51.732L15.5 69.9186C14.1667 70.6884 12.5 69.7261 12.5 68.1865L12.5 31.8135C12.5 30.2739 14.1667 29.3116 15.5 30.0814L47 48.2679Z"
+                  fill="#1387AC" fill-opacity="0.65" />
+                <path id="TrianguloAzul1"
+                  d="M47 48.2679C48.3333 49.0378 48.3333 50.9622 47 51.732L15.5 69.9186C14.1667 70.6884 12.5 69.7261 12.5 68.1865L12.5 31.8135C12.5 30.2739 14.1667 29.3116 15.5 30.0814L47 48.2679Z"
+                  fill="#AC131D" fill-opacity="0.65" />
+              </g>
+            </g>
+          </svg>
+          <a href="https://www.epicurious.com/" target="_blank" class="linkepicurious">Epicurious</a>
+        </div>
+        <div class="animacionatk">
+          <svg xmlns="http://www.w3.org/2000/svg" width="120" height="100" viewBox="0 0 120 100" fill="none">
+            <g id="Frame 1">
+              <path id="TrianguloVerde"
+                d="M63 48.2679C64.3333 49.0377 64.3333 50.9623 63 51.7321L31.5 69.9186C30.1667 70.6884 28.5 69.7261 28.5 68.1865L28.5 31.8135C28.5 30.2739 30.1667 29.3116 31.5 30.0814L63 48.2679Z"
+                fill="#0FEC32" fill-opacity="0.55" />
+              <g id="Azules">
+                <path id="TrianguloAzul2"
+                  d="M47 48.2679C48.3333 49.0378 48.3333 50.9622 47 51.732L15.5 69.9186C14.1667 70.6884 12.5 69.7261 12.5 68.1865L12.5 31.8135C12.5 30.2739 14.1667 29.3116 15.5 30.0814L47 48.2679Z"
+                  fill="#1387AC" fill-opacity="0.65" />
+                <path id="TrianguloAzul1"
+                  d="M47 48.2679C48.3333 49.0378 48.3333 50.9622 47 51.732L15.5 69.9186C14.1667 70.6884 12.5 69.7261 12.5 68.1865L12.5 31.8135C12.5 30.2739 14.1667 29.3116 15.5 30.0814L47 48.2679Z"
+                  fill="#AC131D" fill-opacity="0.65" />
+              </g>
+            </g>
+          </svg>
+          <a href="https://www.americastestkitchen.com/" target="_blank">America's test<br> kitchen</a>
+        </div>
+        <div class="animaciontaste">
+          <svg xmlns="http://www.w3.org/2000/svg" width="120" height="100" viewBox="0 0 120 100" fill="none">
+            <g id="Frame 1">
+              <path id="TrianguloVerde"
+                d="M63 48.2679C64.3333 49.0377 64.3333 50.9623 63 51.7321L31.5 69.9186C30.1667 70.6884 28.5 69.7261 28.5 68.1865L28.5 31.8135C28.5 30.2739 30.1667 29.3116 31.5 30.0814L63 48.2679Z"
+                fill="#0FEC32" fill-opacity="0.55" />
+              <g id="Azules">
+                <path id="TrianguloAzul2"
+                  d="M47 48.2679C48.3333 49.0378 48.3333 50.9622 47 51.732L15.5 69.9186C14.1667 70.6884 12.5 69.7261 12.5 68.1865L12.5 31.8135C12.5 30.2739 14.1667 29.3116 15.5 30.0814L47 48.2679Z"
+                  fill="#1387AC" fill-opacity="0.65" />
+                <path id="TrianguloAzul1"
+                  d="M47 48.2679C48.3333 49.0378 48.3333 50.9622 47 51.732L15.5 69.9186C14.1667 70.6884 12.5 69.7261 12.5 68.1865L12.5 31.8135C12.5 30.2739 14.1667 29.3116 15.5 30.0814L47 48.2679Z"
+                  fill="#AC131D" fill-opacity="0.65" />
+              </g>
+            </g>
+          </svg>
+          <a href="https://www.tastemade.com/" target="_blank">Tastemade</a>
+        </div>
+        <div class="animacionfood">
+          <svg xmlns="http://www.w3.org/2000/svg" width="120" height="100" viewBox="0 0 120 100" fill="none">
+            <g id="Frame 1">
+              <path id="TrianguloVerde"
+                d="M63 48.2679C64.3333 49.0377 64.3333 50.9623 63 51.7321L31.5 69.9186C30.1667 70.6884 28.5 69.7261 28.5 68.1865L28.5 31.8135C28.5 30.2739 30.1667 29.3116 31.5 30.0814L63 48.2679Z"
+                fill="#0FEC32" fill-opacity="0.55" />
+              <g id="Azules">
+                <path id="TrianguloAzul2"
+                  d="M47 48.2679C48.3333 49.0378 48.3333 50.9622 47 51.732L15.5 69.9186C14.1667 70.6884 12.5 69.7261 12.5 68.1865L12.5 31.8135C12.5 30.2739 14.1667 29.3116 15.5 30.0814L47 48.2679Z"
+                  fill="#1387AC" fill-opacity="0.65" />
+                <path id="TrianguloAzul1"
+                  d="M47 48.2679C48.3333 49.0378 48.3333 50.9622 47 51.732L15.5 69.9186C14.1667 70.6884 12.5 69.7261 12.5 68.1865L12.5 31.8135C12.5 30.2739 14.1667 29.3116 15.5 30.0814L47 48.2679Z"
+                  fill="#AC131D" fill-opacity="0.65" />
+              </g>
+            </g>
+          </svg>
+          <a href="https://www.food.com/" target="_blank">Food</a>
+        </div>
+
+
+
+      </div>
+    </div>
+  </aside>
+
+  <!--<footer>-->
+  <footer>
+    <div class="footer">
+      <div class="footer__1">
+        <p>Contacto:<a href="#">pepe@elgordo.com</a></p>
+        <form action="">
+          <div class="form-group">
+            <!--Nombre-->
+            <label for="exampleinputName" class="dejanostuconsulta">Dejanos tus consultas y te responderemos a la
+              brevedad!</label> <br>
+            <input class="nombreinput" type="text" class="form-control" id="exampleInputEmail1"
+              aria-describedby="emailHelp" placeholder="Nombre">
+          </div>
+          <div class="form-group">
+            <!--Email-->
+            <label for="exampleInputEmail1"></label>
+            <input class="emailinput" type="email" class="form-control" id="exampleInputEmail1"
+              aria-describedby="emailHelp" placeholder="Email">
+            <small id="emailHelp" class="form-text text-muted">No compartimos tu email con nadie.</small>
           </div>
       </div>
-      </footer> 
-      <!--</footer>-->
+      <div class="footer__2">
+        ¿Cómo nos conociste?:
 
-    <!-- JQuery-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
-   
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+          <label class="form-check-label" for="inlineCheckbox1">Facebook</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+          <label class="form-check-label" for="inlineCheckbox2">Instagram</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+          <label class="form-check-label" for="inlineCheckbox3">Otros</label>
+        </div>
+        <div class="dropdown">
+          <!--Newsletter-->
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            ¿Te gustaría subscribirte al newsletter?
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Si</a>
+            <a class="dropdown-item" href="#">No</a>
+          </div>
+        </div>
+
+
+        <div class="form-group">
+          <!--TextArea-->
+          <label for="exampleformcontroltextarea1">Dejanos tu consulta</label>
+          <textarea class="form-control" id="exampleformcontroltextarea1" rows="3"></textarea>
+        </div>
+
+        <button type="reset" class="btn btn-warning">Borrar todo</button>
+        <button type="button" class="btn btn-success">Enviar</button>
+        </form>
+      </div>
+
+    </div>
+    <div class="footerbottom">
+      <div class="footerbottom__izq">
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.Instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.gmail.com/" target="_blank"><i class="far fa-envelope"></i></a>
+      </div>
+      <div class="footerbottom__der">
+        &copy; MixitUp | By César Carabetta
+      </div>
+    </div>
+  </footer>
+  <!--</footer>-->
+
+  <!-- JQuery-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

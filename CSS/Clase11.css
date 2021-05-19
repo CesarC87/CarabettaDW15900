@@ -66,15 +66,26 @@
     text-align: center; }
   .novedades__izq {
     grid-area: noveizq; }
+    .novedades__izq p {
+      font-family: 'Playfair Display', serif;
+      font-weight: 400; }
+    .novedades__izq img {
+      margin: 10% 0 0 20%; }
   .novedades__centro {
     grid-area: novecentro; }
-    .novedades__centro .novedades__img {
+    .novedades__centro img {
       margin: 10% 0 0 20%; }
-    .novedades__centro .novedades__parrafo {
+    .novedades__centro p {
       font-family: 'Playfair Display', serif;
       font-weight: 400; }
   .novedades__der {
     grid-area: noveder; }
+    .novedades__der img {
+      height: 150px;
+      margin: 10% 0 0 20%; }
+    .novedades__der p {
+      font-family: 'Playfair Display', serif;
+      font-weight: 400; }
 
 .panaderia {
   grid-area: izq2; }
