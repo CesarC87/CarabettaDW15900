@@ -49,15 +49,6 @@
     }
 }  
 
-.novedades__h2,
-.panaderia__titulo,
-.pasteleria__titulo {
-    text-decoration: underline;    
-    color: rgb(255, 255, 255);    
-    margin: 0 0 0 2%;
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;       
-}
 
 .section {
     margin: 0;   
@@ -77,54 +68,77 @@
     grid-template-areas: "noveizq novecentro noveder";
     &__titulo {
         grid-area: novecentro;
-        text-align: center;
+        text-align: center;        
     }
-    &__izq {
+    &__h2 {
+        text-decoration: underline;    
+        color: rgb(255, 255, 255);    
+        margin: 0 0 0 2%;
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;   
+    }
+    &-izq {
         grid-area: noveizq;
-        p {
+        &__parrafo {
             font-family: 'Playfair Display', serif;
             font-weight: 400;
+            margin: 0 23% 0 20%;
+            background: white;
+            color: black;
+            text-align: center;
         }
-        img {
+        &__img {
             margin: 10% 0 0 20%;
         }
     }
-    &__centro {
+    &-centro {
         grid-area: novecentro;
-        img {
+        &__img {
             margin: 10% 0 0 20%;
         }
-        p {
-            font-family: 'Playfair Display', serif;
-            font-weight: 400;
+        &__parrafo {
+            @extend .novedades-izq__parrafo;
+            margin: 0 20.7% 0 20%;
         }
     }
-    &__der {
+    &-der {
         grid-area: noveder;
-        img {
+        &__img {
             height: 150px;
             margin: 10% 0 0 20%;
         }
-        p {
-            font-family: 'Playfair Display', serif;
-            font-weight: 400;
+        &__parrafo {
+            @extend .novedades-centro__parrafo;
         }
     }
 }
+
+
 .panaderia {
     grid-area: izq2;
+    &__titulo {
+        text-decoration: underline;    
+        color: rgb(255, 255, 255);    
+        margin: 0 0 0 2%;
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;     
+    }
 }
-.pasteleria {
-    grid-area: der2;
+.masterclass {
+    margin: 0 0% 0 5%;
+    grid-column: 2;
+    &__titulo {
+        @extend .panaderia__titulo;
+    }
 }
 nav .breadcrumb {
     margin-bottom: 0;
-}
+    }
 
 .video  {
-    grid-column: 1/4;
+    grid-area: video1;
     &__masterclass {        
-        margin: 0 0 0 25rem;
+        margin: 0 0 0 3%;
     }
 }
 

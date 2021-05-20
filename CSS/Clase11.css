@@ -38,15 +38,6 @@
   .header__titulo:hover {
     transform: translate(40px, 10px); }
 
-.novedades__h2,
-.panaderia__titulo,
-.pasteleria__titulo {
-  text-decoration: underline;
-  color: white;
-  margin: 0 0 0 2%;
-  font-family: 'Playfair Display', serif;
-  font-weight: 400; }
-
 .section {
   margin: 0;
   background-image: url(../background4.jpg);
@@ -64,42 +55,55 @@
   .novedades__titulo {
     grid-area: novecentro;
     text-align: center; }
-  .novedades__izq {
+  .novedades__h2 {
+    text-decoration: underline;
+    color: white;
+    margin: 0 0 0 2%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400; }
+  .novedades-izq {
     grid-area: noveizq; }
-    .novedades__izq p {
+    .novedades-izq__parrafo, .novedades-centro__parrafo, .novedades-der__parrafo {
       font-family: 'Playfair Display', serif;
-      font-weight: 400; }
-    .novedades__izq img {
+      font-weight: 400;
+      margin: 0 23% 0 20%;
+      background: white;
+      color: black;
+      text-align: center; }
+    .novedades-izq__img {
       margin: 10% 0 0 20%; }
-  .novedades__centro {
+  .novedades-centro {
     grid-area: novecentro; }
-    .novedades__centro img {
+    .novedades-centro__img {
       margin: 10% 0 0 20%; }
-    .novedades__centro p {
-      font-family: 'Playfair Display', serif;
-      font-weight: 400; }
-  .novedades__der {
+    .novedades-centro__parrafo, .novedades-der__parrafo {
+      margin: 0 20.7% 0 20%; }
+  .novedades-der {
     grid-area: noveder; }
-    .novedades__der img {
+    .novedades-der__img {
       height: 150px;
       margin: 10% 0 0 20%; }
-    .novedades__der p {
-      font-family: 'Playfair Display', serif;
-      font-weight: 400; }
 
 .panaderia {
   grid-area: izq2; }
+  .panaderia__titulo, .masterclass__titulo {
+    text-decoration: underline;
+    color: white;
+    margin: 0 0 0 2%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400; }
 
-.pasteleria {
-  grid-area: der2; }
+.masterclass {
+  margin: 0 0% 0 5%;
+  grid-column: 2; }
 
 nav .breadcrumb {
   margin-bottom: 0; }
 
 .video {
-  grid-column: 1/4; }
+  grid-area: video1; }
   .video__masterclass {
-    margin: 0 0 0 25rem; }
+    margin: 0 0 0 3%; }
 
 .aside {
   display: flex;
