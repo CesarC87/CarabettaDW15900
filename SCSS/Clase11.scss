@@ -109,6 +109,7 @@
         }
         &__parrafo {
             @extend .novedades-centro__parrafo;
+            width: 50%;
         }
     }
 }
@@ -132,11 +133,26 @@
         @extend .panaderia__titulo;
         font-family: 'Nanum Myeongjo', serif;
         color: black;
-        margin: 8% 0 0 0;
+        margin: 5% 0 0 0;
         text-align: center;
     }
     &__parrafo {
         color: black;
+        margin: 5% 0 0 2%;
+        /*font-family: 'Quicksand', sans-serif;*/
+        font-family: 'Spartan', sans-serif;
+    }
+    &__reseña1 {
+        color: black;
+        font-family: 'Cormorant Garamond', serif;
+        text-align: center;
+        font-size: x-large;
+        font-style: italic;
+    }
+    &__reseña2 {
+        color: black;
+        text-align: center;
+        font-family: 'Cormorant Garamond', serif;
     }
 }
 nav .breadcrumb {
@@ -625,6 +641,10 @@ color: white;
          width: 100%;
      }
      .section {
+         display: flex;
+         flex-direction: column;
+     }
+     .novedades {
          display: flex;
          flex-direction: column;
      }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Variables*/
 /*Inicio*/
 .header {
@@ -83,6 +84,8 @@
     .novedades-der__img {
       height: 150px;
       margin: 10% 0 0 20%; }
+    .novedades-der__parrafo {
+      width: 50%; }
 
 .panaderia {
   grid-area: izq2; }
@@ -100,10 +103,23 @@
   .masterclass__titulo {
     font-family: 'Nanum Myeongjo', serif;
     color: black;
-    margin: 8% 0 0 0;
+    margin: 5% 0 0 0;
     text-align: center; }
   .masterclass__parrafo {
-    color: black; }
+    color: black;
+    margin: 5% 0 0 2%;
+    /*font-family: 'Quicksand', sans-serif;*/
+    font-family: 'Spartan', sans-serif; }
+  .masterclass__reseña1 {
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-size: x-large;
+    font-style: italic; }
+  .masterclass__reseña2 {
+    color: black;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif; }
 
 nav .breadcrumb {
   margin-bottom: 0; }
@@ -461,6 +477,9 @@ article h3 {
     margin-left: auto;
     width: 100%; }
   .section {
+    display: flex;
+    flex-direction: column; }
+  .novedades {
     display: flex;
     flex-direction: column; }
   .video__masterclass {
