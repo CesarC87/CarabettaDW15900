@@ -85,7 +85,7 @@
       height: 150px;
       margin: 10% 0 0 20%; }
     .novedades-der__parrafo {
-      width: 50%; }
+      width: 50% s; }
 
 .panaderia {
   grid-area: izq2; }
