@@ -74,13 +74,13 @@
       background-color: #fff;
       text-align: center;
       position: absolute;
-      right: 1px;
-      margin: 0 5% 0% 0;
+      left: 42%;
       top: 50%;
       padding: 4px;
       border-radius: 20px;
       text-decoration-line: underline;
-      font-family: 'Playfair Display', serif; }
+      font-family: 'DM Serif Display', serif;
+      font-size: large; }
     .novedades-izq__cajaparrafo, .novedades-centro__cajaparrafo, .novedades-der__cajaparrafo {
       font-weight: 400;
       margin: 0 0 0 20%;
@@ -117,7 +117,8 @@
       padding: 4px;
       border-radius: 20px;
       text-decoration-line: underline;
-      font-family: 'Playfair Display', serif; }
+      font-family: 'DM Serif Display', serif;
+      font-size: large; }
     .novedades-centro__cajaparrafo, .novedades-der__cajaparrafo {
       margin: 0 20.7% 0 20%; }
     .novedades-centro__parrafo {
@@ -147,7 +148,8 @@
       padding: 4px;
       border-radius: 20px;
       text-decoration-line: underline;
-      font-family: 'Playfair Display', serif; }
+      font-family: 'DM Serif Display', serif;
+      font-size: large; }
     .novedades-der__cajaparrafo {
       width: 100%; }
     .novedades-der__parrafo {
