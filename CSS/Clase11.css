@@ -98,7 +98,8 @@
       position: absolute;
       top: 63%;
       margin: 0 0 0 40%;
-      line-height: 120%; }
+      line-height: 120%;
+      font-family: 'DM Serif Display', serif; }
   .novedades-centro {
     margin: 2% 1.5% 0 0;
     position: relative; }
@@ -127,7 +128,8 @@
       position: absolute;
       top: 64%;
       right: -7%;
-      line-height: 120%; }
+      line-height: 120%;
+      font-family: 'DM Serif Display', serif; }
   .novedades-der {
     margin: 2% 5% 0 0;
     position: relative; }
@@ -158,7 +160,8 @@
       position: absolute;
       top: 60%;
       right: -5%;
-      line-height: 120%; }
+      line-height: 120%;
+      font-family: 'DM Serif Display', serif; }
 
 .panaderia {
   grid-area: izq2; }
