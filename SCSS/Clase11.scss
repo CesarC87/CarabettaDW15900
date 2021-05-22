@@ -63,12 +63,11 @@
 }
 .novedades {
     grid-column: 1/4;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "noveizq novecentro noveder";
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
     &__titulo {
-        grid-area: novecentro;
-        text-align: center;        
+        margin: 5% 12% 0 0;        
     }
     &__h2 {
         text-decoration: underline;    
@@ -78,39 +77,121 @@
         font-weight: 400;   
     }
     &-izq {
-        grid-area: noveizq;
-        &__parrafo {
+        margin: 4% 0.7% 0 0;
+        position: relative;
+        &__img {
+            margin: 0 0 0 20%;
+            border-right: 3px solid #162123;
+            border-left: 3px solid #162123;
+            border-top: 3px solid #162123;
+        }
+        &__h6 {
+            color: black;
+            background-color: #fff;
+            text-align: center;
+            position: absolute;
+            right: 1px;            
+            margin: 0 5% 0% 0;           
+            top: 50%;
+            padding: 4px;
+            border-radius: 20px;
+            text-decoration-line: underline;
             font-family: 'Playfair Display', serif;
+        }
+        &__cajaparrafo {
             font-weight: 400;
-            margin: 0 23% 0 20%;
+            margin: 0 0 0 20%;
             background: white;
             color: black;
             text-align: center;
-        }
-        &__img {
-            margin: 10% 0 0 20%;
-        }
-    }
-    &-centro {
-        grid-area: novecentro;
-        &__img {
-            margin: 10% 0 0 20%;
+            width: 100%;                  
+            border-bottom: 4px solid #162123;
+            border-left: 3px solid #162123;            
+            border-right: 3px solid #162123;
+            height: 80px;
         }
         &__parrafo {
-            @extend .novedades-izq__parrafo;
+            color: black;
+            font-family: 'Source Serif Pro', serif;
+            position: absolute;
+            top: 63%;
+            margin: 0 0 0 40%;
+            line-height: 120%;
+        }
+        
+        
+    }
+    &-centro {
+        margin: 2% 1.5% 0 0;
+        position: relative;
+        &__img {
+            margin: 10% 0 0 20%;
+            border-right: 3px solid #162123;
+            border-left: 3px solid #162123;
+            border-top: 3px solid #162123;
+        }
+        &__h6 {
+            color: black;
+            background-color: #fff;
+            text-align: center;
+            position: absolute;
+            right: 15%;
+            top: 55%;
+            padding: 4px;
+            border-radius: 20px;
+            text-decoration-line: underline;
+            font-family: 'Playfair Display', serif;
+        }
+
+        &__cajaparrafo {
+            @extend .novedades-izq__cajaparrafo;
             margin: 0 20.7% 0 20%;
+        }
+        &__parrafo {
+            color: black;
+            font-family: 'Source Serif Pro', serif;
+            position: absolute;
+            top: 64%;
+            right: -7%;
+            line-height: 120%;
         }
     }
     &-der {
-        grid-area: noveder;
+        margin: 2% 5% 0 0;
+        position: relative;
         &__img {
             height: 150px;
-            margin: 10% 0 0 20%;
+            margin: 12% 0 0 20%;
+            border-right: 3px solid #162123;
+            border-left: 3px solid #162123;
+            border-top: 3px solid #162123;
+        }
+        &__h6 {
+            color: black;
+            background-color: #fff;
+            text-align: center;
+            position: absolute;                       
+            margin: 0 7.5% 0% 0;         
+            top: 55%;
+            right: 11%;
+            padding: 4px;
+            border-radius: 20px;
+            text-decoration-line: underline;
+            font-family: 'Playfair Display', serif;
+        }
+        &__cajaparrafo {
+            @extend .novedades-centro__cajaparrafo;
+            width: 100%;
         }
         &__parrafo {
-            @extend .novedades-centro__parrafo;
-            width: 50% s;
+            color: black;
+            font-family: 'Source Serif Pro', serif;
+            position: absolute;
+            top: 60%;
+            right: -5%;
+            line-height: 120%;
         }
+
     }
 }
 
