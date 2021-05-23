@@ -170,10 +170,10 @@
       line-height: 120%;
       font-family: 'DM Serif Display', serif; }
 
-.panaderia {
+.abajoizq {
   grid-area: izq2;
   position: relative; }
-  .panaderia__titulo {
+  .abajoizq-panaderia__titulo {
     text-decoration: underline;
     color: white;
     margin: 0 0 0 2%;
@@ -183,34 +183,32 @@
     left: 8%;
     bottom: 10%;
     font-size: 1.8rem; }
-    .panaderia__titulo:hover {
+    .abajoizq-panaderia__titulo:hover {
       text-decoration: none;
       color: #bf9115; }
-  .panaderia__img {
+  .abajoizq-panaderia__img {
     height: 250px;
     position: absolute;
     top: 12%;
     left: 10%; }
-
-.pattiserie__img {
-  height: 250px;
-  position: absolute;
-  top: 12%;
-  right: 10%; }
-
-.pattiserie__titulo {
-  text-decoration: underline;
-  color: #8e3f3f;
-  margin: 0 0 0 2%;
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
-  position: absolute;
-  right: 16.5%;
-  top: 13%;
-  font-size: 1.8rem; }
-  .pattiserie__titulo:hover {
-    text-decoration: none;
-    color: #bf9115; }
+  .abajoizq-pattiserie__img {
+    height: 250px;
+    position: absolute;
+    top: 12%;
+    right: 10%; }
+  .abajoizq-pattiserie__titulo {
+    text-decoration: underline;
+    color: #8e3f3f;
+    margin: 0 0 0 2%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    position: absolute;
+    right: 16.5%;
+    top: 13%;
+    font-size: 1.8rem; }
+    .abajoizq-pattiserie__titulo:hover {
+      text-decoration: none;
+      color: #bf9115; }
 
 .masterclass {
   margin: 0 0% 0.7% 2.2%;
