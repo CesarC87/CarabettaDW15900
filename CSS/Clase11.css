@@ -181,12 +181,36 @@
     font-weight: 400;
     position: absolute;
     left: 8%;
-    bottom: 10%; }
+    bottom: 10%;
+    font-size: 1.8rem; }
+    .panaderia__titulo:hover {
+      text-decoration: none;
+      color: #bf9115; }
   .panaderia__img {
     height: 250px;
     position: absolute;
     top: 12%;
     left: 10%; }
+
+.pattiserie__img {
+  height: 250px;
+  position: absolute;
+  top: 12%;
+  right: 10%; }
+
+.pattiserie__titulo {
+  text-decoration: underline;
+  color: #8e3f3f;
+  margin: 0 0 0 2%;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  position: absolute;
+  right: 16.5%;
+  top: 13%;
+  font-size: 1.8rem; }
+  .pattiserie__titulo:hover {
+    text-decoration: none;
+    color: #bf9115; }
 
 .masterclass {
   margin: 0 0% 0.7% 2.2%;
@@ -195,6 +219,7 @@
   .masterclass__titulo {
     text-decoration: underline;
     font-weight: 400;
+    font-size: 1.8rem;
     font-family: 'Nanum Myeongjo', serif;
     color: black;
     margin: 5% 0 0 0;
