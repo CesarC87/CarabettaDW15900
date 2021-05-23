@@ -173,7 +173,7 @@
 .panaderia {
   grid-area: izq2;
   position: relative; }
-  .panaderia__titulo, .masterclass__titulo {
+  .panaderia__titulo {
     text-decoration: underline;
     color: white;
     margin: 0 0 0 2%;
@@ -193,6 +193,8 @@
   grid-column: 2/4;
   background-color: white; }
   .masterclass__titulo {
+    text-decoration: underline;
+    font-weight: 400;
     font-family: 'Nanum Myeongjo', serif;
     color: black;
     margin: 5% 0 0 0;

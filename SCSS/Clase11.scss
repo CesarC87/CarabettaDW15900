@@ -235,7 +235,8 @@
     grid-column: 2/4;
     background-color: white;
     &__titulo {
-        @extend .panaderia__titulo;
+        text-decoration: underline;      
+        font-weight: 400;    
         font-family: 'Nanum Myeongjo', serif;
         color: black;
         margin: 5% 0 0 0;
