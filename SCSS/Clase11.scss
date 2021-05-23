@@ -780,7 +780,62 @@ color: white;
      .novedades {
          display: flex;
          flex-direction: column;
+         &__titulo {
+             .novedades__h2 {
+                margin: 2% 2% 0 25%;
+             }
+             .novedades__introduccion {
+                text-align: center;
+             }
+         }
+         &-izq {
+            margin: 4% 0.7% 0 0;
+            position: relative;
+            right: 8%;
+            &__cajaparrafo {
+                width: 81.5%;
+            }
+            &__h6 {
+                left: 38%;
+                top: 57%;
+            }
+            &__parrafo {
+                top: 73%;
+                left: -2%;
+            }
+         }
+         &-centro {
+            position: relative;
+            right: 9%;
+            &__cajaparrafo {
+                width: 85%;
+            }
+            &__parrafo {
+                top: 72%;
+                right: 6%;
+            }
+            &__h6 {
+                right: 25%;
+                top: 62%;
+            }
+         }
+         &-der {
+            margin: 2% 5% 5% 0;
+             &__cajaparrafo {
+                width: 74.5%;
+             }
+             &__parrafo {
+                top: 70%;
+                right: 15%;
+             }
+             &__h6 {
+                top: 63%;
+                right: 25%;
+             }
+         }
+
      }
+
      .video {
          &__masterclass {
              width: 300px;
