@@ -53,14 +53,21 @@
   display: flex;
   flex-direction: row;
   justify-content: end; }
+  .novedades a:hover {
+    text-decoration: none;
+    color: #667b96; }
   .novedades__titulo {
-    margin: 5% 12% 0 0; }
+    position: relative; }
   .novedades__h2 {
     text-decoration: underline;
     color: white;
-    margin: 0 0 0 2%;
+    margin: 20% 2% 0 25%;
     font-family: 'Playfair Display', serif;
     font-weight: 400; }
+  .novedades__introduccion {
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    margin: 7% 0 0 0; }
   .novedades-izq {
     margin: 4% 0.7% 0 0;
     position: relative; }
@@ -171,6 +178,10 @@
     margin: 0 0 0 2%;
     font-family: 'Playfair Display', serif;
     font-weight: 400; }
+  .panaderia__img {
+    height: 250px;
+    position: absolute;
+    top: 12%; }
 
 .masterclass {
   margin: 0 0% 0.7% 2.2%;

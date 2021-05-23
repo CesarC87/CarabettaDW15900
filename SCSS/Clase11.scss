@@ -65,16 +65,25 @@
     grid-column: 1/4;
     display: flex;
     flex-direction: row;
-    justify-content: end;
-    &__titulo {
-        margin: 5% 12% 0 0;        
+    justify-content: end;    
+    a:hover {
+        text-decoration: none;
+        color: darken($color: #a5b2c2, $amount: 21);
+    }
+    &__titulo {           
+        position: relative;
     }
     &__h2 {
         text-decoration: underline;    
         color: rgb(255, 255, 255);    
-        margin: 0 0 0 2%;
+        margin: 20% 2% 0 25%;
         font-family: 'Playfair Display', serif;
-        font-weight: 400;   
+        font-weight: 400;          
+    }
+    &__introduccion {
+        font-family: 'DM Serif Display', serif;
+        color: white;
+        margin: 7% 0 0 0;
     }
     &-izq {
         margin: 4% 0.7% 0 0;
@@ -209,6 +218,11 @@
         margin: 0 0 0 2%;
         font-family: 'Playfair Display', serif;
         font-weight: 400;     
+    }
+    &__img {
+        height: 250px;
+        position: absolute;
+        top: 12%;
     }
 }
 .masterclass {
