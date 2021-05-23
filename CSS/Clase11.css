@@ -180,7 +180,7 @@
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     position: absolute;
-    left: 8%;
+    left: 9.5%;
     bottom: 10%;
     font-size: 1.8rem; }
     .abajoizq-panaderia__titulo:hover {
@@ -190,12 +190,14 @@
     height: 250px;
     position: absolute;
     top: 12%;
-    left: 10%; }
+    left: 10%;
+    border-radius: 20px; }
   .abajoizq-pattiserie__img {
     height: 250px;
     position: absolute;
     top: 12%;
-    right: 10%; }
+    right: 10%;
+    border-radius: 20px; }
   .abajoizq-pattiserie__titulo {
     text-decoration: underline;
     color: #8e3f3f;
@@ -209,6 +211,15 @@
     .abajoizq-pattiserie__titulo:hover {
       text-decoration: none;
       color: #bf9115; }
+
+.abajoizq-pattiserie__img, .abajoizq-panaderia__img {
+  transition: all 1s ease; }
+
+.abajoizq-pattiserie:hover .abajoizq-pattiserie__img {
+  transform: scale(1.05); }
+
+.abajoizq-panaderia:hover .abajoizq-panaderia__img {
+  transform: scale(1.05); }
 
 .masterclass {
   margin: 0 0% 0.7% 2.2%;

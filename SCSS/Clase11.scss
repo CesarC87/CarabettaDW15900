@@ -220,7 +220,7 @@
             font-family: 'Playfair Display', serif;
             font-weight: 400;     
             position: absolute;
-            left: 8%;
+            left: 9.5%;
             bottom: 10%;
             font-size: 1.8rem;
             &:hover {
@@ -233,6 +233,7 @@
             position: absolute;
             top: 12%;
             left: 10%;
+            border-radius: 20px;
         }
     }
     &-pattiserie {
@@ -240,7 +241,8 @@
             height: 250px;
             position: absolute;
             top: 12%;
-            right: 10%
+            right: 10%;
+            border-radius: 20px;
         }
         &__titulo {
             text-decoration: underline;
@@ -258,6 +260,16 @@
             }
         }
     }
+}
+
+.abajoizq-pattiserie__img, .abajoizq-panaderia__img {
+    transition: all 1s ease;
+}
+.abajoizq-pattiserie:hover .abajoizq-pattiserie__img {
+    transform: scale(1.05);
+}
+.abajoizq-panaderia:hover .abajoizq-panaderia__img {
+    transform: scale(1.05);
 }
 
 .masterclass {
