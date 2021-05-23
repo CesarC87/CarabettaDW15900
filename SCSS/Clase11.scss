@@ -212,17 +212,22 @@
 
 .panaderia {
     grid-area: izq2;
+    position: relative;
     &__titulo {
         text-decoration: underline;    
         color: rgb(255, 255, 255);    
         margin: 0 0 0 2%;
         font-family: 'Playfair Display', serif;
         font-weight: 400;     
+        position: absolute;
+        left: 8%;
+        bottom: 10%;
     }
     &__img {
         height: 250px;
         position: absolute;
         top: 12%;
+        left: 10%;
     }
 }
 .masterclass {

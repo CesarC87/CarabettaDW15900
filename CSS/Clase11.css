@@ -171,17 +171,22 @@
       font-family: 'DM Serif Display', serif; }
 
 .panaderia {
-  grid-area: izq2; }
+  grid-area: izq2;
+  position: relative; }
   .panaderia__titulo, .masterclass__titulo {
     text-decoration: underline;
     color: white;
     margin: 0 0 0 2%;
     font-family: 'Playfair Display', serif;
-    font-weight: 400; }
+    font-weight: 400;
+    position: absolute;
+    left: 8%;
+    bottom: 10%; }
   .panaderia__img {
     height: 250px;
     position: absolute;
-    top: 12%; }
+    top: 12%;
+    left: 10%; }
 
 .masterclass {
   margin: 0 0% 0.7% 2.2%;
