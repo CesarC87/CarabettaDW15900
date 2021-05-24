@@ -265,7 +265,8 @@
 .abajoizq-pattiserie__img,
 .abajoizq-panaderia__img,
 .abajoder-cafe__img,
-.abajoder-cafe__titulo {
+.abajoder-cafe__titulo,
+.abajoder-cafe__subtitulo {
     transition: all 1s ease;
 }
 .abajoizq-pattiserie:hover .abajoizq-pattiserie__img {
@@ -279,6 +280,9 @@
 }
 .abajoder-cafe:hover .abajoder-cafe__titulo {
     transform: translateY(-40%);
+}
+.abajoder-cafe:hover .abajoder-cafe__subtitulo {
+    color: rgba(255,255,255,1);
 }
 
 .abajoder {
@@ -306,6 +310,14 @@
                 text-decoration: none;
                 color: darken($color: #ecc353, $amount: 21);
             }
+        }
+        &__subtitulo {
+            position: absolute;
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0);
+            bottom: 5%;
+            left: 14%;
+            font-family: 'DM Serif Display', serif;
         }
     }
     
