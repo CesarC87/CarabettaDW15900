@@ -235,6 +235,17 @@
             left: 10%;
             border-radius: 20px;
         }
+        &__subtitulo {
+            position: absolute;
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0);
+            bottom: 4%;
+            left: 8.5%;
+            font-family: 'DM Serif Display', serif;
+            background-color: #c9834900;
+            border-radius: 8px;            
+            padding: 0 1.2px 0 1.2px;
+        }
     }
     &-pattiserie {
         &__img {
@@ -259,30 +270,15 @@
                 color: darken($color: #ecc353, $amount: 21);
             }
         }
+        &__subtitulo {
+            position: absolute;
+            font-size: 1.3rem;
+            color: rgba(255, 255, 255, 0);
+            font-family: 'DM Serif Display', serif;
+            left: 55%;
+            top: 20%;    
+        }
     }
-}
-/*ANIMACIONES ABAJO --> PANADERIA/PATTISERIE/CAFE*/
-.abajoizq-pattiserie__img,
-.abajoizq-panaderia__img,
-.abajoder-cafe__img,
-.abajoder-cafe__titulo,
-.abajoder-cafe__subtitulo {
-    transition: all 1s ease;
-}
-.abajoizq-pattiserie:hover .abajoizq-pattiserie__img {
-    transform: scale(1.05);
-}
-.abajoizq-panaderia:hover .abajoizq-panaderia__img {
-    transform: scale(1.05);
-}
-.abajoder-cafe:hover .abajoder-cafe__img {
-    transform: scale(1.05);
-}
-.abajoder-cafe:hover .abajoder-cafe__titulo {
-    transform: translateY(-40%);
-}
-.abajoder-cafe:hover .abajoder-cafe__subtitulo {
-    color: rgba(255,255,255,1);
 }
 
 .abajoder {
@@ -316,13 +312,53 @@
             font-size: 1rem;
             color: rgba(255, 255, 255, 0);
             bottom: 5%;
-            left: 14%;
+            left: 18%;
             font-family: 'DM Serif Display', serif;
         }
-    }
-    
-    
+    }    
 }
+/*ANIMACIONES ABAJO --> PANADERIA/PATTISERIE/CAFE*/
+.abajoizq-pattiserie__img,
+.abajoizq-pattiserie__titulo,
+.abajoizq-pattiserie__subtitulo,
+.abajoizq-panaderia__img,
+.abajoizq-panaderia__titulo,
+.abajoizq-panaderia__subtitulo,
+.abajoder-cafe__img,
+.abajoder-cafe__titulo,
+.abajoder-cafe__subtitulo {
+    transition: all 1s ease;
+}
+.abajoizq-pattiserie:hover .abajoizq-pattiserie__img {
+    transform: scale(1.05);
+}
+.abajoizq-pattiserie:hover .abajoizq-pattiserie__titulo {
+    transform: translateY(-40%);
+}
+.abajoizq-pattiserie:hover .abajoizq-pattiserie__subtitulo {
+    color: #8e3f3f
+}
+.abajoizq-panaderia:hover .abajoizq-panaderia__img {
+    transform: scale(1.05);
+}
+.abajoizq-panaderia:hover .abajoizq-panaderia__titulo {
+    transform: translateY(-40%);
+}
+.abajoizq-panaderia:hover .abajoizq-panaderia__subtitulo {
+    color: rgba(255,255,255,1);
+    background-color: #c98249;    
+}
+.abajoder-cafe:hover .abajoder-cafe__img {
+    transform: scale(1.05);
+}
+.abajoder-cafe:hover .abajoder-cafe__titulo {
+    transform: translateY(-40%);
+}
+.abajoder-cafe:hover .abajoder-cafe__subtitulo {
+    color: rgba(255,255,255,1);
+}
+
+
 
 .masterclass {
     margin: 0 0% 0.7% 2.2%;
