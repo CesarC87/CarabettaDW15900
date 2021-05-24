@@ -198,10 +198,7 @@
     color: rgba(255, 255, 255, 0);
     bottom: 4%;
     left: 8.5%;
-    font-family: 'DM Serif Display', serif;
-    background-color: #c9834900;
-    border-radius: 8px;
-    padding: 0 1.2px 0 1.2px; }
+    font-family: 'DM Serif Display', serif; }
   .abajoizq-pattiserie__img {
     height: 250px;
     position: absolute;
@@ -287,8 +284,7 @@
   transform: translateY(-40%); }
 
 .abajoizq-panaderia:hover .abajoizq-panaderia__subtitulo {
-  color: white;
-  background-color: #c98249; }
+  color: white; }
 
 .abajoder-cafe:hover .abajoder-cafe__img {
   transform: scale(1.05); }
