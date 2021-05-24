@@ -9,7 +9,7 @@
   justify-content: space-evenly;
   margin: 0px;
   padding: 0px;
-  background-image: url(../spices.jpg);
+  background-image: url(../Imágenes/spices.jpg);
   background-size: cover;
   background-position-y: center; }
   .header__logo {
@@ -41,7 +41,7 @@
 
 .section {
   margin: 0;
-  background-image: url(../background4.jpg);
+  background-image: url(../Imágenes/background4.jpg);
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -567,7 +567,7 @@ label {
   color: white; }
 
 body {
-  background-image: url(./background4.jpg);
+  background-image: url(../Imágenes/background4.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-y: top;
@@ -928,7 +928,7 @@ article h3 {
   .emailinput {
     margin: 20% 2% 0 0; }
   body {
-    background-image: url(/CSS/background4.jpg);
+    background-image: url(../Imágenes/background4.jpg);
     background-repeat: no-repeat;
     background-size: auto;
     background-position-y: center;
@@ -941,7 +941,7 @@ article h3 {
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   body {
-    background-image: url(/CSS/background4.jpg);
+    background-image: url(../Imágenes/background4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: top;
