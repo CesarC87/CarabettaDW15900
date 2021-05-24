@@ -9,7 +9,7 @@
   justify-content: space-evenly;
   margin: 0px;
   padding: 0px;
-  background-image: url(../Imágenes/spices.jpg);
+  background-image: url(../images/spices.jpg);
   background-size: cover;
   background-position-y: center; }
   .header__logo {
@@ -41,7 +41,7 @@
 
 .section {
   margin: 0;
-  background-image: url(../Imágenes/background4.jpg);
+  background-image: url(../images/background4.jpg);
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -70,7 +70,8 @@
     margin: 7% 0 0 0; }
   .novedades-izq {
     margin: 4% 0.7% 0 0;
-    position: relative; }
+    position: relative;
+    width: 260px; }
     .novedades-izq__img {
       margin: 0 0 0 20%;
       border-right: 3px solid #162123;
@@ -109,7 +110,8 @@
       font-family: 'DM Serif Display', serif; }
   .novedades-centro {
     margin: 2% 1.5% 0 0;
-    position: relative; }
+    position: relative;
+    width: 270px; }
     .novedades-centro__img {
       margin: 10% 0 0 20%;
       border-right: 3px solid #162123;
@@ -139,7 +141,8 @@
       font-family: 'DM Serif Display', serif; }
   .novedades-der {
     margin: 2% 5% 0 0;
-    position: relative; }
+    position: relative;
+    width: 230px; }
     .novedades-der__img {
       height: 150px;
       margin: 12% 0 0 20%;
@@ -567,7 +570,6 @@ label {
   color: white; }
 
 body {
-  background-image: url(../Imágenes/background4.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-y: top;
@@ -928,7 +930,7 @@ article h3 {
   .emailinput {
     margin: 20% 2% 0 0; }
   body {
-    background-image: url(../Imágenes/background4.jpg);
+    background-image: url(../images/background4.jpg);
     background-repeat: no-repeat;
     background-size: auto;
     background-position-y: center;
@@ -941,7 +943,7 @@ article h3 {
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   body {
-    background-image: url(../Imágenes/background4.jpg);
+    background-image: url(../images/background4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: top;
