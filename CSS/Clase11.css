@@ -215,7 +215,8 @@
 /*ANIMACIONES ABAJO --> PANADERIA/PATTISERIE/CAFE*/
 .abajoizq-pattiserie__img,
 .abajoizq-panaderia__img,
-.abajoder-cafe__img {
+.abajoder-cafe__img,
+.abajoder-cafe__titulo {
   transition: all 1s ease; }
 
 .abajoizq-pattiserie:hover .abajoizq-pattiserie__img {
@@ -226,6 +227,9 @@
 
 .abajoder-cafe:hover .abajoder-cafe__img {
   transform: scale(1.05); }
+
+.abajoder-cafe:hover .abajoder-cafe__titulo {
+  transform: translateY(-40%); }
 
 .abajoder {
   grid-area: der2;
