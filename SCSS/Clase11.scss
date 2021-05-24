@@ -2,7 +2,7 @@
 
 
 
-/*Inicio*/
+                                                    /*INDEX*/
 
 .header {     
     height: 103px;
@@ -261,14 +261,19 @@
         }
     }
 }
-
-.abajoizq-pattiserie__img, .abajoizq-panaderia__img {
+/*ANIMACIONES ABAJO --> PANADERIA/PATTISERIE/CAFE*/
+.abajoizq-pattiserie__img,
+.abajoizq-panaderia__img,
+.abajoder-cafe__img {
     transition: all 1s ease;
 }
 .abajoizq-pattiserie:hover .abajoizq-pattiserie__img {
     transform: scale(1.05);
 }
 .abajoizq-panaderia:hover .abajoizq-panaderia__img {
+    transform: scale(1.05);
+}
+.abajoder-cafe:hover .abajoder-cafe__img {
     transform: scale(1.05);
 }
 
@@ -501,7 +506,7 @@ label {
     margin: 5% 1% 0 0;
 }
 
-                            /*  Recetas  */
+                                                /*  RECETAS  */
 
 .h1recetas {
     margin: 10px  0  10px  10px;   
@@ -630,7 +635,7 @@ label {
     }
 }
 
-                            /*  Tecnicas 1  */
+                                                /*  TECNICAS 1  */
 
 .gridtecnicas1 {
     display: grid;     
@@ -706,7 +711,7 @@ article h3 {
     min-height: 100%;
 }
 
-                         /*  Tecnicas 2  */
+                                                /*  TECNICAS 2  */
 
 .h1tecnicas2 {
     @extend .h1recetas;
@@ -748,7 +753,7 @@ margin-left: 100px;
 color: white;
 }
 
-                            /*  Galeria  */
+                                                /*  GALERIA  */
 
 .h1galeria {
     @extend .h1recetas;
@@ -777,7 +782,7 @@ color: white;
 }
 
 
-                            /*  MediaQueries  */
+                                        /*  MEDIAQUERIES  */
 
 @mixin mediah1 ($justify-self,$font-family,$align-self,$color,$margin,$transition,$font-size) {
     justify-self: $justify-self;
