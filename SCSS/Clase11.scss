@@ -113,7 +113,7 @@
             background: white;
             color: black;
             text-align: center;
-            width: 100%;                  
+            width: 99%;                  
             border-bottom: 4px solid #162123;
             border-left: 3px solid #162123;            
             border-right: 3px solid #162123;
@@ -196,7 +196,7 @@
         }
         &__cajaparrafo {
             @extend .novedades-centro__cajaparrafo;
-            width: 100%;
+            width: 98.5%;
         }
         &__parrafo {
             color: black;
@@ -579,8 +579,7 @@ label {
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "izq1 der1"
                          "izq2 der2"
-                         "izq3 der3";
-    
+                         "izq3 der3";    
 }
 .steak {
     grid-area: izq1;
