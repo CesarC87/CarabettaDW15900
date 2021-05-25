@@ -374,8 +374,8 @@
     &__parrafo {
         color: black;
         margin: 5% 0 0 2%;
-        /*font-family: 'Quicksand', sans-serif;*/
-        font-family: 'Spartan', sans-serif;
+        font-family: 'Quicksand', sans-serif;        
+        font-weight: bold;
     }
     &__reseña1 {
         color: black;
@@ -559,7 +559,7 @@ label {
                                                 /*  RECETAS  */
 
 .h1recetas {
-    margin: 10px  0  10px  10px;   
+    margin: 10px 0 10px 37%;   
     background-color: cornsilk;
     border-radius: 20px;
     width: 28%;
@@ -574,20 +574,25 @@ label {
 
 
 #recetas {
-    display: flex;
-    flex-direction: row;     
-    flex-wrap: nowrap;
-    justify-content: center;        
-    flex-basis: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "izq1 der1"
+                         "izq2 der2"
+                         "izq3 der3";
     
 }
 .steak {
+    grid-area: izq1;
     &__titulo {    
         background-color: cadetblue;
         border-radius: 10px;
         text-align: center;
         margin-right: 100px;
         margin-left: 100px;
+        font-family: 'Playfair Display', serif;
+        width: max-content;
+        padding: 1% 1% 1% 1%;
     }
     &__table {
         margin-left: 3.5rem;
@@ -599,13 +604,15 @@ label {
         }
     }        
     &__parrafo {
-        background-color: rgba(51, 152, 170, 0.7);    
-        border: solid 1px rgba(255,255,255,0.5);   
+        color: black;        
+        font-size: 1.2rem;              
+        font-family: inherit; 
         
     }
 }
 
 .beef {
+    grid-area: izq2;
     &__titulo {    
         @extend .steak__titulo;
     }
@@ -621,6 +628,7 @@ label {
 }
 
 .chicken {
+    grid-area: izq3;
     &__titulo {    
         @extend .steak__titulo;
     }

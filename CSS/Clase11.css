@@ -313,8 +313,8 @@
   .masterclass__parrafo {
     color: black;
     margin: 5% 0 0 2%;
-    /*font-family: 'Quicksand', sans-serif;*/
-    font-family: 'Spartan', sans-serif; }
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold; }
   .masterclass__reseña1 {
     color: black;
     font-family: 'Cormorant Garamond', serif;
@@ -459,7 +459,7 @@ label {
 
 /*  RECETAS  */
 .h1recetas, .h1tecnicas1, .h1tecnicas2, .h1galeria {
-  margin: 10px  0  10px  10px;
+  margin: 10px 0 10px 37%;
   background-color: cornsilk;
   border-radius: 20px;
   width: 28%; }
@@ -470,30 +470,39 @@ label {
     font-weight: 400; }
 
 #recetas {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  flex-basis: 50px; }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "izq1 der1" "izq2 der2" "izq3 der3"; }
 
-.steak__titulo, .beef__titulo, .chicken__titulo {
-  background-color: cadetblue;
-  border-radius: 10px;
-  text-align: center;
-  margin-right: 100px;
-  margin-left: 100px; }
-
-.steak__table, .beef__table, .chicken__table {
-  margin-left: 3.5rem;
-  background-color: #fcf6eb; }
-  .steak__table--TH, .beef__table--TH, .chicken__table--TH {
+.steak {
+  grid-area: izq1; }
+  .steak__titulo, .beef__titulo, .chicken__titulo {
     background-color: cadetblue;
-    color: white;
-    text-align: center; }
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-family: 'Playfair Display', serif;
+    width: max-content;
+    padding: 1% 1% 1% 1%; }
+  .steak__table, .beef__table, .chicken__table {
+    margin-left: 3.5rem;
+    background-color: #fcf6eb; }
+    .steak__table--TH, .beef__table--TH, .chicken__table--TH {
+      background-color: cadetblue;
+      color: white;
+      text-align: center; }
+  .steak__parrafo, .beef__parrafo, .chicken__parrafo {
+    color: black;
+    font-size: 1.2rem;
+    font-family: inherit; }
 
-.steak__parrafo, .beef__parrafo, .chicken__parrafo {
-  background-color: rgba(51, 152, 170, 0.7);
-  border: solid 1px rgba(255, 255, 255, 0.5); }
+.beef {
+  grid-area: izq2; }
+
+.chicken {
+  grid-area: izq3; }
 
 #recetas h3 {
   color: white; }
