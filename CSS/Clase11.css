@@ -695,34 +695,34 @@ article h3 {
       position: relative;
       right: 8%; }
       .novedades-izq__cajaparrafo, .novedades-centro__cajaparrafo, .novedades-der__cajaparrafo {
-        width: 81.5%; }
+        width: 99%; }
       .novedades-izq__h6 {
-        left: 38%;
-        top: 57%; }
+        left: 42%;
+        top: 58%; }
       .novedades-izq__parrafo {
         top: 73%;
-        left: -2%; }
+        left: 1%; }
     .novedades-centro {
       position: relative;
       right: 9%; }
       .novedades-centro__cajaparrafo, .novedades-der__cajaparrafo {
-        width: 85%; }
+        width: 99%; }
       .novedades-centro__parrafo {
         top: 72%;
-        right: 6%; }
+        right: -7%; }
       .novedades-centro__h6 {
-        right: 25%;
+        right: 17%;
         top: 62%; }
     .novedades-der {
       margin: 2% 5% 5% 0; }
       .novedades-der__cajaparrafo {
-        width: 74.5%; }
+        width: 98.2%; }
       .novedades-der__parrafo {
         top: 70%;
-        right: 15%; }
+        right: -3%; }
       .novedades-der__h6 {
         top: 63%;
-        right: 25%; }
+        right: 10%; }
   .video__masterclass {
     width: 300px;
     margin: 0 0 0 3%; }
