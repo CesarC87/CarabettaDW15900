@@ -566,7 +566,7 @@ label {
     &__titulo {
         text-align: left;
         margin: 0 0 0 15px;
-        font-family: 'Source Serif Pro', serif;
+        font-family: 'DM Serif Display', serif;
         font-weight: 400;
     }
 }
@@ -574,77 +574,75 @@ label {
 
 
 #recetas {
-    display: grid;
+    /*display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "izq1 der1"
                          "izq2 der2"
-                         "izq3 der3";    
+                         "izq3 der3";    */
+    display: flex;
+    flex-direction: column;
 }
-.steak {
-    grid-area: izq1;
-    &__titulo {    
-        background-color: cadetblue;
-        border-radius: 10px;
-        text-align: center;
-        margin-right: 100px;
-        margin-left: 100px;
-        font-family: 'Playfair Display', serif;
-        width: max-content;
-        padding: 1% 1% 1% 1%;
-    }
-    &__table {
-        margin-left: 3.5rem;
-        background-color: rgb(252, 246, 235);
-        &--TH {
-            background-color: cadetblue;
-            color: white;
-            text-align: center;
-        }
-    }        
-    &__parrafo {
-        color: black;        
-        font-size: 1.2rem;              
-        font-family: inherit; 
-        
-    }
-}
-
 .beef {
     grid-area: izq2;
-    &__titulo {    
-        @extend .steak__titulo;
+    position: relative;
+    &__img {
+        height: 425px;
+        margin: 0 0 0 23%;
     }
-    &__table {
+    &-descripcion {
+        position: absolute;
+        bottom: -25%;
+        background-color: #ffffff;
+        margin: 0 25% 0 25%;
+        &__titulo {    
+            color: black;
+            border-radius: 10px;
+            text-align: center;            
+            font-family: 'Playfair Display', serif;        
+            padding: 1% 1% 1% 1%;        
+        }
+        
+        &__parrafo {
+            color: black;        
+            font-size: 1.2rem;              
+            font-family: inherit; 
+            border-bottom: 5px solid #77E2E1;     
+            text-align: center;   
+        }        
+    }
+    /*&__table {
         @extend .steak__table;
         &--TH {
             @extend .steak__table--TH;
         }
-    }        
-    &__parrafo {
-        @extend .steak__parrafo;       
-    }
+    }        */
 }
-
-.chicken {
-    grid-area: izq3;
-    &__titulo {    
-        @extend .steak__titulo;
+.steak {    
+    position: relative;
+    &__img {
+        height: 475px;
+        margin: 12% 0 0 23.5%;
     }
-    &__table {
+    &-descripcion {
+        @extend .beef-descripcion;
+        bottom: -8%;
+        left: 11%;
+        &__titulo {    
+            @extend .beef-descripcion__titulo;    
+        }        
+        &__parrafo {
+            @extend .beef-descripcion__parrafo;  
+        }        
+    }
+    /*&__table {
         @extend .steak__table;
         &--TH {
             @extend .steak__table--TH;
         }
-    }        
-    &__parrafo {
-        @extend .steak__parrafo;       
-    }
+    }        */
 }
 
-#recetas h3 {
-    color: rgb(255, 255, 255);        
-}
 
 .footerbottom {
     height: 50px;
@@ -743,6 +741,7 @@ body {
     background-position-x: right;
     margin: 0px;    
     height: 100%;
+    background-color: #f0f0f0;
 }
 html {
     height: 100%;
@@ -837,7 +836,9 @@ color: white;
 .carousel .carousel-item {
     height: 500px;
 }
-
+body {
+    background-color: #f0f0f0;
+}
 
                                         /*  MEDIAQUERIES  */
 
@@ -875,6 +876,7 @@ color: white;
         background-position-y: center;
         background-position-x: center;
         margin: 0px;
+        background-color: #f0f0f0;
     }
      .nav {
          justify-content: space-evenly;
@@ -1242,6 +1244,7 @@ color: white;
         background-position-y: center;
         background-position-x: center;
         margin: 0px;
+        background-color: #f0f0f0;
     }
     .form-group .form-text {
         margin: 20% 0 0 0 ;
@@ -1259,6 +1262,7 @@ color: white;
         background-position-y: top;
         background-position-x: right;
         margin: 0px;
+        background-color: #f0f0f0;
         
     }
      .header {

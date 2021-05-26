@@ -466,46 +466,63 @@ label {
   .h1recetas__titulo, .h1tecnicas1__titulo, .h1tecnicas2__titulo, .h1galeria__titulo {
     text-align: left;
     margin: 0 0 0 15px;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'DM Serif Display', serif;
     font-weight: 400; }
 
 #recetas {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "izq1 der1" "izq2 der2" "izq3 der3"; }
-
-.steak {
-  grid-area: izq1; }
-  .steak__titulo, .beef__titulo, .chicken__titulo {
-    background-color: cadetblue;
-    border-radius: 10px;
-    text-align: center;
-    margin-right: 100px;
-    margin-left: 100px;
-    font-family: 'Playfair Display', serif;
-    width: max-content;
-    padding: 1% 1% 1% 1%; }
-  .steak__table, .beef__table, .chicken__table {
-    margin-left: 3.5rem;
-    background-color: #fcf6eb; }
-    .steak__table--TH, .beef__table--TH, .chicken__table--TH {
-      background-color: cadetblue;
-      color: white;
-      text-align: center; }
-  .steak__parrafo, .beef__parrafo, .chicken__parrafo {
-    color: black;
-    font-size: 1.2rem;
-    font-family: inherit; }
+  /*display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "izq1 der1"
+                         "izq2 der2"
+                         "izq3 der3";    */
+  display: flex;
+  flex-direction: column; }
 
 .beef {
-  grid-area: izq2; }
+  grid-area: izq2;
+  position: relative;
+  /*&__table {
+        @extend .steak__table;
+        &--TH {
+            @extend .steak__table--TH;
+        }
+    }        */ }
+  .beef__img {
+    height: 425px;
+    margin: 0 0 0 23%; }
+  .beef-descripcion, .steak-descripcion {
+    position: absolute;
+    bottom: -25%;
+    background-color: #ffffff;
+    margin: 0 25% 0 25%; }
+    .beef-descripcion__titulo, .steak-descripcion__titulo {
+      color: black;
+      border-radius: 10px;
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      padding: 1% 1% 1% 1%; }
+    .beef-descripcion__parrafo, .steak-descripcion__parrafo {
+      color: black;
+      font-size: 1.2rem;
+      font-family: inherit;
+      border-bottom: 5px solid #77E2E1;
+      text-align: center; }
 
-.chicken {
-  grid-area: izq3; }
-
-#recetas h3 {
-  color: white; }
+.steak {
+  position: relative;
+  /*&__table {
+        @extend .steak__table;
+        &--TH {
+            @extend .steak__table--TH;
+        }
+    }        */ }
+  .steak__img {
+    height: 475px;
+    margin: 12% 0 0 23.5%; }
+  .steak-descripcion {
+    bottom: -8%;
+    left: 11%; }
 
 .footerbottom {
   height: 50px;
@@ -584,7 +601,8 @@ body {
   background-position-y: top;
   background-position-x: right;
   margin: 0px;
-  height: 100%; }
+  height: 100%;
+  background-color: #f0f0f0; }
 
 html {
   height: 100%; }
@@ -659,6 +677,9 @@ article h3 {
 .carousel .carousel-item {
   height: 500px; }
 
+body {
+  background-color: #f0f0f0; }
+
 /*  MEDIAQUERIES  */
 @media only screen and (max-width: 320px) {
   .header__titulo {
@@ -683,7 +704,8 @@ article h3 {
     background-size: cover;
     background-position-y: center;
     background-position-x: center;
-    margin: 0px; }
+    margin: 0px;
+    background-color: #f0f0f0; }
   .nav {
     justify-content: space-evenly;
     position: relative;
@@ -803,9 +825,9 @@ article h3 {
   #recetas {
     display: flex;
     flex-direction: column; }
-  .steak__titulo, .beef__titulo, .chicken__titulo {
+  .steak__titulo {
     font-size: 1.5rem; }
-  .steak__parrafo, .beef__parrafo, .chicken__parrafo {
+  .steak__parrafo {
     margin-right: 0.7rem; }
   .beef__titulo {
     font-size: 1.2rem; }
@@ -895,7 +917,7 @@ article h3 {
     .h1recetas__titulo, .h1tecnicas1__titulo, .h1tecnicas2__titulo, .h1galeria__titulo {
       width: max-content;
       font-family: 'Source Serif Pro', serif; }
-  .steak__table, .beef__table, .chicken__table {
+  .steak__table {
     margin: 0 0 0 25%; }
   .gridtecnicas1 {
     display: flex;
@@ -944,7 +966,8 @@ article h3 {
     background-size: auto;
     background-position-y: center;
     background-position-x: center;
-    margin: 0px; }
+    margin: 0px;
+    background-color: #f0f0f0; }
   .form-group .form-text {
     margin: 20% 0 0 0; }
   .dejanostuconsulta {
@@ -957,7 +980,8 @@ article h3 {
     background-size: cover;
     background-position-y: top;
     background-position-x: right;
-    margin: 0px; }
+    margin: 0px;
+    background-color: #f0f0f0; }
   .header {
     grid-template-columns: 1fr 0.5fr 1fr; }
     .header__titulo {
