@@ -491,18 +491,18 @@ label {
   .beef__img {
     height: 425px;
     margin: 0 0 0 23%; }
-  .beef-descripcion, .steak-descripcion {
+  .beef-descripcion, .steak-descripcion, .chicken-descripcion {
     position: absolute;
     bottom: -25%;
     background-color: #ffffff;
     margin: 0 25% 0 25%; }
-    .beef-descripcion__titulo, .steak-descripcion__titulo {
+    .beef-descripcion__titulo, .steak-descripcion__titulo, .chicken-descripcion__titulo {
       color: black;
       border-radius: 10px;
       text-align: center;
       font-family: 'Playfair Display', serif;
       padding: 1% 1% 1% 1%; }
-    .beef-descripcion__parrafo, .steak-descripcion__parrafo {
+    .beef-descripcion__parrafo, .steak-descripcion__parrafo, .chicken-descripcion__parrafo {
       color: black;
       font-size: 1.2rem;
       font-family: inherit;
@@ -521,6 +521,21 @@ label {
     height: 475px;
     margin: 12% 0 0 23.5%; }
   .steak-descripcion {
+    bottom: -8%;
+    left: 11%; }
+
+.chicken {
+  position: relative;
+  /*&__table {
+        @extend .steak__table;
+        &--TH {
+            @extend .steak__table--TH;
+        }
+    }        */ }
+  .chicken__img {
+    height: 475px;
+    margin: 12% 0 0 23.5%; }
+  .chicken-descripcion {
     bottom: -8%;
     left: 11%; }
 
