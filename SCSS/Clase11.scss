@@ -886,29 +886,48 @@ article h3 {
     align-items: flex-end;
     width: 100%;    
 }
-.cremamuselina__titulo {      
-    background-color: cadetblue;
-    border-radius: 10px;
-    text-align: center;
-    margin-right: 100px;
-    margin-left: 100px;    
-    color: white;
+.cremamuselina {
+    &__titulo {      
+        background-color: cadetblue;
+        border-radius: 10px;
+        text-align: center;
+        margin-right: 100px;
+        margin-left: 100px;    
+        color: white;
+    }
+    &__parrafo {
+    @extend .merengue__parrafo;
+    font-size: 1.2rem;
+    }
 }
-.salsaholandesa__titulo {      
-background-color: cadetblue;
-border-radius: 10px;
-text-align: center;
-margin-right: 100px;
-margin-left: 100px;    
-color: white;
+
+.salsaholandesa {
+    &__titulo {      
+        background-color: cadetblue;
+        border-radius: 10px;
+        text-align: center;
+        margin-right: 100px;
+        margin-left: 100px;    
+        color: white;
+    }
+    &__parrafo {
+    @extend .merengue__parrafo;
+    font-size: 1.2rem;
+    }
 }
-.ahumadocarnes__titulo {      
-background-color: cadetblue;
-border-radius: 10px;
-text-align: center;
-margin-right: 100px;
-margin-left: 100px;    
-color: white;
+.ahumadocarnes {
+    &__titulo {      
+        background-color: cadetblue;
+        border-radius: 10px;
+        text-align: center;
+        margin-right: 100px;
+        margin-left: 100px;    
+        color: white;
+    }
+    &__parrafo {
+    @extend .merengue__parrafo;
+    font-size: 1.2rem;
+    }
 }
 
                                                 /*  GALERIA  */

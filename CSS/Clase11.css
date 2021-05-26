@@ -506,7 +506,7 @@ label {
       text-align: center;
       font-family: 'Playfair Display', serif;
       padding: 1% 1% 1% 1%; }
-    .beef-descripcion__parrafo, .steak-descripcion__parrafo, .chicken-descripcion__parrafo, .merengue__parrafo, .cremapastelera__parrafo, .marinadohierbas__parrafo {
+    .beef-descripcion__parrafo, .steak-descripcion__parrafo, .chicken-descripcion__parrafo, .merengue__parrafo, .cremapastelera__parrafo, .marinadohierbas__parrafo, .cremamuselina__parrafo, .salsaholandesa__parrafo, .ahumadocarnes__parrafo {
       color: black;
       font-size: 1.2rem;
       font-family: inherit;
@@ -610,7 +610,7 @@ label {
     margin-right: 100px;
     margin-left: 100px;
     color: white; }
-  .merengue__parrafo, .cremapastelera__parrafo, .marinadohierbas__parrafo {
+  .merengue__parrafo, .cremapastelera__parrafo, .marinadohierbas__parrafo, .cremamuselina__parrafo, .salsaholandesa__parrafo, .ahumadocarnes__parrafo {
     color: black;
     font-size: 1.5rem;
     font-family: inherit;
@@ -712,6 +712,9 @@ article h3 {
   margin-left: 100px;
   color: white; }
 
+.cremamuselina__parrafo {
+  font-size: 1.2rem; }
+
 .salsaholandesa__titulo {
   background-color: cadetblue;
   border-radius: 10px;
@@ -720,6 +723,9 @@ article h3 {
   margin-left: 100px;
   color: white; }
 
+.salsaholandesa__parrafo {
+  font-size: 1.2rem; }
+
 .ahumadocarnes__titulo {
   background-color: cadetblue;
   border-radius: 10px;
@@ -727,6 +733,9 @@ article h3 {
   margin-right: 100px;
   margin-left: 100px;
   color: white; }
+
+.ahumadocarnes__parrafo {
+  font-size: 1.2rem; }
 
 /*  GALERIA  */
 .h1galeria {
