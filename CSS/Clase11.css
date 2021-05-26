@@ -458,6 +458,9 @@ label {
   margin: 5% 1% 0 0; }
 
 /*  RECETAS  */
+.bodyrecetas {
+  background-color: #F0F0F0; }
+
 .h1recetas, .h1tecnicas1, .h1tecnicas2, .h1galeria {
   margin: 10px 0 10px 37%;
   background-color: cornsilk;
@@ -495,7 +498,8 @@ label {
     position: absolute;
     bottom: -25%;
     background-color: #ffffff;
-    margin: 0 25% 0 25%; }
+    margin: 0 25% 0 25%;
+    border-bottom: 5px solid #77E2E1; }
     .beef-descripcion__titulo, .steak-descripcion__titulo, .chicken-descripcion__titulo {
       color: black;
       border-radius: 10px;
@@ -506,7 +510,6 @@ label {
       color: black;
       font-size: 1.2rem;
       font-family: inherit;
-      border-bottom: 5px solid #77E2E1;
       text-align: center; }
 
 .steak {
@@ -537,7 +540,12 @@ label {
     margin: 12% 0 0 23.5%; }
   .chicken-descripcion {
     bottom: -8%;
-    left: 11%; }
+    left: 5%; }
+
+.boton {
+  height: 200px; }
+  .boton .btn-success {
+    margin: 8% 0 0 45%; }
 
 .footerbottom {
   height: 50px;

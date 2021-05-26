@@ -557,7 +557,9 @@ label {
 }
 
                                                 /*  RECETAS  */
-
+.bodyrecetas {
+    background-color: #F0F0F0;
+}
 .h1recetas {
     margin: 10px 0 10px 37%;   
     background-color: cornsilk;
@@ -595,6 +597,7 @@ label {
         bottom: -25%;
         background-color: #ffffff;
         margin: 0 25% 0 25%;
+        border-bottom: 5px solid #77E2E1;  
         &__titulo {    
             color: black;
             border-radius: 10px;
@@ -606,8 +609,7 @@ label {
         &__parrafo {
             color: black;        
             font-size: 1.2rem;              
-            font-family: inherit; 
-            border-bottom: 5px solid #77E2E1;     
+            font-family: inherit;                
             text-align: center;   
         }        
     }
@@ -651,7 +653,7 @@ label {
     &-descripcion {
         @extend .beef-descripcion;
         bottom: -8%;
-        left: 11%;
+        left: 5%;
         &__titulo {    
             @extend .beef-descripcion__titulo;    
         }        
@@ -666,7 +668,12 @@ label {
         }
     }        */
 }
-
+.boton {
+    height: 200px;
+    .btn-success {
+        margin: 8% 0 0 45%;
+    }
+}
 
 .footerbottom {
     height: 50px;
@@ -715,7 +722,9 @@ label {
 }
 
                                                 /*  TECNICAS 1  */
-
+.bodytecnicas1 {
+    
+}
 .gridtecnicas1 {
     display: grid;     
     grid-template-columns: 1fr 1fr 1fr;     
