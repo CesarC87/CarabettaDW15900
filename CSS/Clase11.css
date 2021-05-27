@@ -701,7 +701,7 @@ article h3 {
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 10px;
   justify-items: right;
-  align-items: flex-end;
+  align-items: baseline;
   width: 100%; }
 
 .cremamuselina__titulo {
@@ -841,6 +841,28 @@ body {
   .aside {
     display: flex;
     flex-direction: column; }
+  .abajoder-cafe__img {
+    position: relative;
+    right: -1%; }
+  .abajoizq-panaderia__img {
+    position: relative;
+    left: 19%; }
+  .abajoizq-panaderia__titulo {
+    left: 20%;
+    bottom: 50%; }
+  .abajoizq-panaderia__subtitulo {
+    bottom: 46%;
+    left: 14.5%; }
+  .abajoizq-pattiserie__img {
+    position: relative;
+    top: 12%;
+    right: -19%; }
+  .abajoizq-pattiserie__titulo {
+    right: 30%;
+    top: 55%; }
+  .abajoizq-pattiserie__subtitulo {
+    left: 20%;
+    top: 60%; }
   .asideFlex h2 {
     font-size: 100%; }
   .aside__links {
@@ -896,24 +918,50 @@ body {
   /*RECETAS*/
   .h1recetas, .h1tecnicas1, .h1tecnicas2, .h1galeria {
     width: 100%;
-    background-color: rgba(255, 255, 255, 0); }
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0 0 0 7%; }
     .h1recetas__titulo, .h1tecnicas1__titulo, .h1tecnicas2__titulo, .h1galeria__titulo {
       margin: 10px 0 10px 75px;
       background-color: cornsilk;
       border-radius: 20px;
-      width: 46%;
-      font-size: 100%; }
+      width: 44%;
+      font-size: 100%;
+      padding: 1%; }
   #recetas {
     display: flex;
     flex-direction: column; }
-  .steak__titulo {
-    font-size: 1.5rem; }
-  .steak__parrafo {
-    margin-right: 0.7rem; }
   .beef__titulo {
     font-size: 1.2rem; }
+  .beef__img {
+    height: 150px;
+    margin: 0 0 0 10%; }
+  .beef-descripcion, .steak-descripcion, .chicken-descripcion {
+    position: relative;
+    bottom: -25%;
+    background-color: #ffffff;
+    margin: 0 0 0 0;
+    border-bottom: 5px solid #77E2E1; }
+    .beef-descripcion__parrafo, .steak-descripcion__parrafo, .chicken-descripcion__parrafo, .merengue__parrafo, .cremapastelera__parrafo, .marinadohierbas__parrafo, .cremamuselina__parrafo, .salsaholandesa__parrafo, .ahumadocarnes__parrafo {
+      font-size: 0.7rem; }
+  .steak__titulo {
+    font-size: 1.5rem; }
+  .steak__img {
+    height: 200px;
+    margin: 6% 0 0 2%; }
+  .steak__parrafo {
+    margin-right: 0.7rem; }
+  .steak-descripcion {
+    left: 2%; }
+  .chicken__img {
+    height: 200px;
+    margin: 12% 0 0 1%; }
   .chicken__titulo {
     font-size: 1.5rem; }
+  .chicken-descripcion {
+    left: 1%;
+    top: -1%; }
+  .boton .btn-success {
+    margin: 8% 40% 0 30%; }
   table {
     width: max-content; }
   li, td {
@@ -982,6 +1030,43 @@ body {
     margin: 0; }
   .header__img {
     height: 103px; }
+  .section {
+    display: flex;
+    flex-direction: column; }
+  .novedades {
+    display: flex;
+    flex-direction: column; }
+    .novedades__h2 {
+      margin: 5% 30% 0 35%; }
+    .novedades__introduccion {
+      margin: 3% 0 0 22%; }
+    .novedades-izq {
+      margin: 4% 0.7% 0 18%; }
+      .novedades-izq__h6 {
+        top: 57%; }
+      .novedades-izq__parrafo {
+        margin: 7% 0 0 40%; }
+    .novedades-centro {
+      margin: 4% 0.7% 0 17%; }
+      .novedades-centro__parrafo {
+        top: 70%; }
+      .novedades-centro__h6 {
+        top: 60%; }
+    .novedades-der {
+      margin: 2% 5% 0 22%; }
+      .novedades-der__parrafo {
+        top: 70%; }
+      .novedades-der__h6 {
+        top: 62%; }
+  .abajoizq-panaderia__img {
+    position: relative; }
+  .abajoder-cafe__img {
+    position: relative;
+    right: -26%; }
+  .abajoder-cafe__titulo {
+    right: 30%; }
+  .abajoder-cafe__subtitulo {
+    left: 28%; }
   .article__titulo {
     font-family: 'Source Serif Pro', serif; }
   .article__parrafo {

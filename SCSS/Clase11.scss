@@ -882,8 +882,8 @@ article h3 {
     display: grid;     
     grid-template-columns: 1fr 1fr 1fr;     
     grid-column-gap: 10px;
-    justify-items: right;
-    align-items: flex-end;
+    justify-items: right;    
+    align-items: baseline;
     width: 100%;    
 }
 .cremamuselina {
@@ -1078,6 +1078,42 @@ body {
          display: flex;
          flex-direction: column;
      }
+     .abajoder-cafe__img {
+         position: relative;
+         right: -1%;
+     }
+     .abajoizq-panaderia{
+        &__img {
+        position: relative;        
+        left: 19%;
+        }
+        &__titulo {
+            left: 20%;
+            bottom: 50%;
+        }
+        &__subtitulo {
+            bottom: 46%;
+            left: 14.5%;
+        }
+     }
+     
+     .abajoizq-pattiserie {
+        &__img {
+            position: relative;
+            top: 12%;
+            right: -19%;
+        }
+        &__titulo {
+        right: 30%;
+        top: 55%;
+        }
+        &__subtitulo {
+            left: 20%;
+            top: 60%;
+        }
+     }
+    
+     
 
      .asideFlex h2 {
          font-size: 100%;
@@ -1160,35 +1196,70 @@ body {
      .h1recetas {       
             width: 100%;
             background-color: rgba(255,255,255,0);
+            margin: 0 0 0 7%;
         &__titulo {
             margin: 10px 0 10px 75px;
             background-color: cornsilk;
             border-radius: 20px;
-            width: 46%;
+            width: 44%;
             font-size: 100%;
+            padding: 1%;
         }
      }
      #recetas {
          display: flex;
          flex-direction: column;
      }
-     .steak {
-         &__titulo {
-            font-size: 1.5rem;
-         }
-         &__parrafo {
-             margin-right: 0.7rem;
-         }
-     }
+     
      .beef {
         &__titulo {
            font-size: 1.2rem;
         }
+        &__img {            
+           height: 150px;
+           margin: 0 0 0 10%;
+        }
+        &-descripcion {
+            position: relative;
+            bottom: -25%;
+            background-color: #ffffff;
+            margin: 0 0 0 0;
+            border-bottom: 5px solid #77E2E1;
+            &__parrafo {
+                font-size: 0.7rem;
+            }
+        }
     }
-    .chicken {
+    .steak {
         &__titulo {
            font-size: 1.5rem;
         }
+        &__img {
+            height: 200px;
+            margin: 6% 0 0 2%;
+        }
+        &__parrafo {
+            margin-right: 0.7rem;
+        }
+        &-descripcion {
+            left: 2%;
+        }
+    }
+    .chicken {
+        &__img {
+            height: 200px;
+            margin: 12% 0 0 1%;
+        }
+        &__titulo {
+           font-size: 1.5rem;
+        }
+        &-descripcion {
+            left: 1%;
+            top: -1%;
+        }
+    }
+    .boton .btn-success {
+        margin: 8% 40% 0 30%;
     }
     table {
         width: max-content;
@@ -1272,6 +1343,69 @@ body {
                height:103px;
            }
         }         
+    .section {
+        display: flex;
+        flex-direction: column;
+    }    
+    .novedades {
+        display: flex;
+        flex-direction: column;
+        &__h2 {
+            margin: 5% 30% 0 35%;
+        }
+        &__introduccion {
+            margin: 3% 0 0 22%;
+        }
+        &-izq {
+            margin: 4% 0.7% 0 18%;
+            &__h6 {
+                top: 57%;
+            }
+            &__parrafo {
+                margin: 7% 0 0 40%;
+            }
+        }
+        &-centro {
+            margin: 4% 0.7% 0 17%;
+            &__parrafo {
+                top: 70%;
+            }
+            &__h6 {
+                top: 60%;
+            }
+        }
+        &-der {
+            margin: 2% 5% 0 22%;
+            &__parrafo {
+                top: 70%;
+            }
+            &__h6 {
+                top: 62%;
+            }
+        }
+    }
+    .abajoizq {
+        &-panaderia {
+            &__img {
+                position: relative;
+            }
+        }
+    }
+    .abajoder {
+        &-cafe {
+            &__img {
+                position: relative;
+                right: -26%;
+            }
+            &__titulo {
+                right: 30%;
+            }
+            &__subtitulo {
+                left: 28%;
+            }
+        
+        }
+    }
      
     .article {
         &__titulo {
