@@ -838,6 +838,9 @@ body {
   .video__masterclass {
     width: 300px;
     margin: 0 0 0 3%; }
+  .masterclass {
+    margin: auto;
+    width: 95%; }
   .aside {
     display: flex;
     flex-direction: column; }
@@ -915,7 +918,7 @@ body {
     margin: 0 2% 0 0;
     padding: 0;
     height: 3rem; }
-  /*RECETAS*/
+  /*RECETAS @320PX*/
   .h1recetas, .h1tecnicas1, .h1tecnicas2, .h1galeria {
     width: 100%;
     background-color: rgba(255, 255, 255, 0);
@@ -930,36 +933,45 @@ body {
   #recetas {
     display: flex;
     flex-direction: column; }
-  .beef__titulo {
-    font-size: 1.2rem; }
-  .beef__img {
-    height: 150px;
-    margin: 0 0 0 10%; }
-  .beef-descripcion, .steak-descripcion, .chicken-descripcion {
-    position: relative;
-    bottom: -25%;
-    background-color: #ffffff;
-    margin: 0 0 0 0;
-    border-bottom: 5px solid #77E2E1; }
-    .beef-descripcion__parrafo, .steak-descripcion__parrafo, .chicken-descripcion__parrafo, .merengue__parrafo, .cremapastelera__parrafo, .marinadohierbas__parrafo, .cremamuselina__parrafo, .salsaholandesa__parrafo, .ahumadocarnes__parrafo {
-      font-size: 0.7rem; }
-  .steak__titulo {
-    font-size: 1.5rem; }
-  .steak__img {
-    height: 200px;
-    margin: 6% 0 0 2%; }
-  .steak__parrafo {
-    margin-right: 0.7rem; }
-  .steak-descripcion {
-    left: 2%; }
-  .chicken__img {
-    height: 200px;
-    margin: 12% 0 0 1%; }
-  .chicken__titulo {
-    font-size: 1.5rem; }
-  .chicken-descripcion {
-    left: 1%;
-    top: -1%; }
+  .beef {
+    margin: auto;
+    width: 96%; }
+    .beef__titulo {
+      font-size: 1.2rem; }
+    .beef__img {
+      height: 150px;
+      margin: 0 0 0 10%; }
+    .beef-descripcion, .steak-descripcion, .chicken-descripcion {
+      position: relative;
+      bottom: -25%;
+      background-color: #ffffff;
+      margin: 0 0 0 0;
+      border-bottom: 5px solid #77E2E1; }
+      .beef-descripcion__parrafo, .steak-descripcion__parrafo, .chicken-descripcion__parrafo, .merengue__parrafo, .cremapastelera__parrafo, .marinadohierbas__parrafo, .cremamuselina__parrafo, .salsaholandesa__parrafo, .ahumadocarnes__parrafo {
+        font-size: 0.7rem; }
+  .steak {
+    margin: auto;
+    width: 96%; }
+    .steak__titulo {
+      font-size: 1.5rem; }
+    .steak__img {
+      height: 200px;
+      margin: 6% 0 0 2%; }
+    .steak__parrafo {
+      margin-right: 0.7rem; }
+    .steak-descripcion {
+      left: 2%; }
+  .chicken {
+    margin: auto;
+    width: 96%; }
+    .chicken__img {
+      height: 200px;
+      margin: 12% 0 0 1%; }
+    .chicken__titulo {
+      font-size: 1.5rem; }
+    .chicken-descripcion {
+      left: 1%;
+      top: -1%; }
   .boton .btn-success {
     margin: 8% 40% 0 30%; }
   table {

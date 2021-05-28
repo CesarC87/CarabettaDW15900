@@ -1074,6 +1074,10 @@ body {
              margin: 0 0 0 3%;
          }
      }
+     .masterclass {
+         margin: auto;
+         width: 95%;
+     }
      .aside {
          display: flex;
          flex-direction: column;
@@ -1191,7 +1195,7 @@ body {
         height: 3rem;
     }
 
-     /*RECETAS*/
+                                                            /*RECETAS @320PX*/
      
      .h1recetas {       
             width: 100%;
@@ -1212,6 +1216,8 @@ body {
      }
      
      .beef {
+        margin: auto;
+        width: 96%;
         &__titulo {
            font-size: 1.2rem;
         }
@@ -1231,6 +1237,8 @@ body {
         }
     }
     .steak {
+        margin: auto;
+        width: 96%;
         &__titulo {
            font-size: 1.5rem;
         }
@@ -1246,6 +1254,8 @@ body {
         }
     }
     .chicken {
+        margin: auto;
+        width: 96%;
         &__img {
             height: 200px;
             margin: 12% 0 0 1%;
