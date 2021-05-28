@@ -1650,8 +1650,45 @@ body {
             width: 95%;
             display: block;
         }
+    }
+    .h1recetas {
+        width: max-content;
+        margin: auto ;
+        padding: 0 2%;
+        &__titulo {
+            font-size: 9vw;
+        }
     }    
-    
+    .boton .btn-success {
+        margin: 10% auto 0 auto;
+        display: block;
+    }
+    html {
+        height: 100%;
+    }
+    .h1tecnicas1, .h1tecnicas2 {
+        width: max-content;
+        margin: 4%auto;
+        padding: 0 2%;
+    }
+    .bodytecnicas1 {
+        background-size: auto;
+    }
+    .merengue__tipos, .cremapastelera__link, .marinadohierbas__link {
+        font-size: 5vw;
+        background-color: cadetblue;
+        text-align: center;
+        margin: unset;
+        margin: 0 32% 5% 30%;
+        border-radius: 20px;
+        padding: 1%;
+    }
+    .h1galeria__titulo {
+        margin: auto;
+    }
+    .carousel-item .h-100 {
+        height: 48vw !important;
+    }
  }
 
  @media only screen and (min-width: 600px) and (max-width: 768px) {
