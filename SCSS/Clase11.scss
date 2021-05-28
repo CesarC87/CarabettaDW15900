@@ -1358,7 +1358,7 @@ body {
         text-align: center;
     }
  }
-
+                                                                        /*MEDIA @576PX */
  @media only screen and (min-width: 321px) and (max-width: 576px) {
      .header {
         &__titulo {
@@ -1585,7 +1585,7 @@ body {
         margin: 20% 2% 0 0;
     }
     body {
-        background-image: url(../images/background4.jpg);    
+        background-color: #F0F0F0;  
         background-repeat: no-repeat;
         background-size:auto;
         background-position-y: center;
@@ -1604,7 +1604,7 @@ body {
     .footerbottom {
         display: flex;
         flex-direction: column;
-        height: 100%;
+        height: max-content;
         &__izq {
             margin: 4% auto 0 auto;
         }
@@ -1634,6 +1634,23 @@ body {
     .emailinput {
         margin: 6% 2% 0 0;
     }
+                                                                /*RECETAS @576PX*/
+    .beef, .steak, .chicken {
+        &__img {
+            height: 55vw;
+            margin: auto;
+            display: block;
+        }
+        &-descripcion {
+            position: unset;
+            bottom: -25%;
+            background-color: #ffffff;
+            margin: auto;
+            border-bottom: 5px solid #77E2E1;
+            width: 95%;
+            display: block;
+        }
+    }    
     
  }
 

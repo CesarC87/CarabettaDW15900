@@ -1040,6 +1040,7 @@ body {
     font-size: 100%;
     text-align: center; } }
 
+/*MEDIA @576PX */
 @media only screen and (min-width: 321px) and (max-width: 576px) {
   .header__titulo {
     justify-self: center;
@@ -1205,7 +1206,7 @@ body {
   .emailinput {
     margin: 20% 2% 0 0; }
   body {
-    background-image: url(../images/background4.jpg);
+    background-color: #F0F0F0;
     background-repeat: no-repeat;
     background-size: auto;
     background-position-y: center;
@@ -1221,7 +1222,7 @@ body {
   .footerbottom {
     display: flex;
     flex-direction: column;
-    height: 100%; }
+    height: max-content; }
     .footerbottom__izq {
       margin: 4% auto 0 auto; }
     .footerbottom__der {
@@ -1240,7 +1241,20 @@ body {
   .nombreinput {
     margin: 0 0.5% 0 0; }
   .emailinput {
-    margin: 6% 2% 0 0; } }
+    margin: 6% 2% 0 0; }
+  /*RECETAS @576PX*/
+  .beef__img, .steak__img, .chicken__img {
+    height: 55vw;
+    margin: auto;
+    display: block; }
+  .beef-descripcion, .steak-descripcion, .chicken-descripcion, .steak-descripcion, .chicken-descripcion {
+    position: unset;
+    bottom: -25%;
+    background-color: #ffffff;
+    margin: auto;
+    border-bottom: 5px solid #77E2E1;
+    width: 95%;
+    display: block; } }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   body {
