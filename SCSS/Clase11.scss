@@ -1280,7 +1280,7 @@ body {
     th {
         font-size: 0.7rem;
     }
-    /*TECNICAS BASICAS*/
+                                                            /*TECNICAS BASICAS @320PX*/
 
     .gridtecnicas1 {
         display: flex;
@@ -1292,13 +1292,37 @@ body {
             word-spacing: 0;
         }
     }
-    .h1tecnicas1__titulo {
-        margin: 10px 15px 10px 90px;
-        background-color: cornsilk;
-        border-radius: 20px;
-        width: 38%;
-        font-size: 100%;
+    .h1tecnicas1 {
+        width: 90%;
+        &__titulo {
+           
+            background-color: cornsilk;
+            border-radius: 20px;            
+            font-size: 100%;
+        }
     }
+    .merengue,
+    .cremapastelera,
+    .marinadohierbas {
+        width: 98%;
+        margin: auto;
+    }
+    .merengue__titulo,
+    .cremapastelera__titulo,
+    .marinadohierbas__titulo {
+        width: max-content;
+        margin: 2% auto;
+        padding: 1%;
+    }
+    .cremamuselina__parrafo,
+    .salsaholandesa__parrafo,
+    .ahumadocarnes__parrafo {
+        margin: auto;
+    }
+    .gridtecnicas1 li {
+        font-size: x-large;
+    }
+    
     /*TECNICAS AVANZADAS*/
 
     .gridtecnicas2 {
