@@ -1329,13 +1329,14 @@ body {
      .header {
         &__titulo {
                 @include mediah1(center, "Dancing Script", baseline, #ad0010, 1.5rem 0 0 0, 2s, 45px);
+                font-size: 9vw;
         }
         &__subtitulo {
                justify-self: left;
                align-self: center;
                font-family: 'Poppins', sans-serif;
                color: rgb(255, 255, 255);
-               font-size: 100%;
+               font-size: 3.7vw;
                background-color: rgba(255,255,255,0);
                margin: 0;
            }
@@ -1351,38 +1352,66 @@ body {
         display: flex;
         flex-direction: column;
         &__h2 {
-            margin: 5% 30% 0 35%;
+            margin: auto;
+            text-align: center;
         }
         &__introduccion {
-            margin: 3% 0 0 22%;
+            margin: 2% auto;
+            text-align: center;
         }
         &-izq {
-            margin: 4% 0.7% 0 18%;
+            margin: auto;
             &__h6 {
                 top: 57%;
+                left: 22%;
+                margin: 0 0 2% 0;
             }
             &__parrafo {
-                margin: 7% 0 0 40%;
+                margin: 0 0 0 20%;
+                top: 70%;
+            }
+            &__img {
+                margin: auto;
+            }
+            &__cajaparrafo {
+                margin: auto 0;
             }
         }
         &-centro {
-            margin: 4% 0.7% 0 17%;
+            margin: 4% auto;
             &__parrafo {
                 top: 70%;
+                right: 14%;
             }
             &__h6 {
                 top: 60%;
+                right: 35%;
+            }
+            &__img {
+                margin: auto;
+            }
+            &__cajaparrafo {
+                margin: auto 0;
             }
         }
         &-der {
-            margin: 2% 5% 0 22%;
+            margin: auto;
             &__parrafo {
-                top: 70%;
+                top: 65%;
+                right: 20%;
             }
             &__h6 {
-                top: 62%;
+                top: 58%;
+                right: 28%;
+            }
+            &__img {
+                margin: auto;
             }
         }
+    }
+    .masterclass {
+        width: 95%;
+        margin: auto;
     }
     .abajoizq {
         &-panaderia {
@@ -1501,11 +1530,42 @@ body {
         margin: 0px;
         background-color: #f0f0f0;
     }
+    .footer {
+        font-size: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__2 {
+        margin:auto;
+    }
+    .footerbottom {
+        display: flex;
+        flex-direction: column;
+        &__izq {
+            margin: 4% auto 0 auto;
+        }
+        &__der {
+            margin: 2%;
+        }
+    }
+    #exampleformcontroltextarea1 {
+        margin: auto;
+        width: 90%;
+    }
+    #emailHelp {
+        margin: auto;
+    }
     .form-group .form-text {
         margin: 20% 0 0 0 ;
     }
     .dejanostuconsulta {
         line-height: 100%;
+    }
+    .nombreinput {
+        margin: 0 0.5% 0 0;
+    }
+    .emailinput {
+        margin: 6% 2% 0 0;
     }
  }
 

@@ -1019,13 +1019,14 @@ body {
     color: #ad0010;
     margin: 1.5rem 0 0 0;
     transition: 2s;
-    font-size: 45px; }
+    font-size: 45px;
+    font-size: 9vw; }
   .header__subtitulo {
     justify-self: left;
     align-self: center;
     font-family: 'Poppins', sans-serif;
     color: white;
-    font-size: 100%;
+    font-size: 3.7vw;
     background-color: rgba(255, 255, 255, 0);
     margin: 0; }
   .header__img {
@@ -1037,27 +1038,49 @@ body {
     display: flex;
     flex-direction: column; }
     .novedades__h2 {
-      margin: 5% 30% 0 35%; }
+      margin: auto;
+      text-align: center; }
     .novedades__introduccion {
-      margin: 3% 0 0 22%; }
+      margin: 2% auto;
+      text-align: center; }
     .novedades-izq {
-      margin: 4% 0.7% 0 18%; }
+      margin: auto; }
       .novedades-izq__h6 {
-        top: 57%; }
+        top: 57%;
+        left: 22%;
+        margin: 0 0 2% 0; }
       .novedades-izq__parrafo {
-        margin: 7% 0 0 40%; }
+        margin: 0 0 0 20%;
+        top: 70%; }
+      .novedades-izq__img {
+        margin: auto; }
+      .novedades-izq__cajaparrafo, .novedades-centro__cajaparrafo, .novedades-der__cajaparrafo {
+        margin: auto 0; }
     .novedades-centro {
-      margin: 4% 0.7% 0 17%; }
+      margin: 4% auto; }
       .novedades-centro__parrafo {
-        top: 70%; }
+        top: 70%;
+        right: 14%; }
       .novedades-centro__h6 {
-        top: 60%; }
+        top: 60%;
+        right: 35%; }
+      .novedades-centro__img {
+        margin: auto; }
+      .novedades-centro__cajaparrafo, .novedades-der__cajaparrafo {
+        margin: auto 0; }
     .novedades-der {
-      margin: 2% 5% 0 22%; }
+      margin: auto; }
       .novedades-der__parrafo {
-        top: 70%; }
+        top: 65%;
+        right: 20%; }
       .novedades-der__h6 {
-        top: 62%; }
+        top: 58%;
+        right: 28%; }
+      .novedades-der__img {
+        margin: auto; }
+  .masterclass {
+    width: 95%;
+    margin: auto; }
   .abajoizq-panaderia__img {
     position: relative; }
   .abajoder-cafe__img {
@@ -1134,10 +1157,32 @@ body {
     background-position-x: center;
     margin: 0px;
     background-color: #f0f0f0; }
+  .footer {
+    font-size: 80%;
+    display: flex;
+    flex-direction: column; }
+  .footer__2 {
+    margin: auto; }
+  .footerbottom {
+    display: flex;
+    flex-direction: column; }
+    .footerbottom__izq {
+      margin: 4% auto 0 auto; }
+    .footerbottom__der {
+      margin: 2%; }
+  #exampleformcontroltextarea1 {
+    margin: auto;
+    width: 90%; }
+  #emailHelp {
+    margin: auto; }
   .form-group .form-text {
     margin: 20% 0 0 0; }
   .dejanostuconsulta {
-    line-height: 100%; } }
+    line-height: 100%; }
+  .nombreinput {
+    margin: 0 0.5% 0 0; }
+  .emailinput {
+    margin: 6% 2% 0 0; } }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   body {
