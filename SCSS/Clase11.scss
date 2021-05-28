@@ -1691,7 +1691,7 @@ body {
     }
  }
 
- @media only screen and (min-width: 600px) and (max-width: 768px) {
+ @media only screen and (min-width: 577px) and (max-width: 768px) {
     body {
         background-image: url(../images/background4.jpg);    
         background-repeat: no-repeat;
@@ -1705,13 +1705,20 @@ body {
      .header {
          grid-template-columns: 1fr 0.5fr 1fr;
          &__titulo {
-             @include mediah1(center, "Dancing Script", center, white, 0 0 0 10px, 2s, 60px)
+             @include mediah1(auto, "Dancing Script", center, #ad0010, 7% 0 0 5%, 2s, 9vw)
+             
          }
          &__img {
              height: 103px;
          }
-         &__subtitulo {
-             font-size: 25px;
+         &__subtitulo {             
+             color: #f9feff;
+             font-size: 3vw;
+             margin: auto 7% 5% 0;
+             background-color: #25436291;
+             border-radius: 7px;
+             padding: 4px;
+             text-align: center;
          }
      }
      .nav {
@@ -1736,6 +1743,23 @@ body {
     }
     .footer__2 {
         margin: 0 10px;
+    }
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+    .novedades {
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+        &__introduccion {
+            margin: auto;
+            text-align: center;
+        }
+        &__h2 {
+            margin: auto;
+            text-align: center;
+        }
     }
         
  }

@@ -1285,7 +1285,7 @@ body {
   .carousel-item .h-100 {
     height: 48vw !important; } }
 
-@media only screen and (min-width: 600px) and (max-width: 768px) {
+@media only screen and (min-width: 577px) and (max-width: 768px) {
   body {
     background-image: url(../images/background4.jpg);
     background-repeat: no-repeat;
@@ -1297,17 +1297,23 @@ body {
   .header {
     grid-template-columns: 1fr 0.5fr 1fr; }
     .header__titulo {
-      justify-self: center;
+      justify-self: auto;
       font-family: "Dancing Script";
       align-self: center;
-      color: white;
-      margin: 0 0 0 10px;
+      color: #ad0010;
+      margin: 7% 0 0 5%;
       transition: 2s;
-      font-size: 60px; }
+      font-size: 9vw; }
     .header__img {
       height: 103px; }
     .header__subtitulo {
-      font-size: 25px; }
+      color: #f9feff;
+      font-size: 3vw;
+      margin: auto 7% 5% 0;
+      background-color: #25436291;
+      border-radius: 7px;
+      padding: 4px;
+      text-align: center; }
   .nav {
     margin: auto; }
   .nav a {
@@ -1323,7 +1329,20 @@ body {
   .emailinput {
     margin: 12.5% 1.5% 0 0; }
   .footer__2 {
-    margin: 0 10px; } }
+    margin: 0 10px; }
+  .section {
+    display: flex;
+    flex-direction: column; }
+  .novedades {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column; }
+    .novedades__introduccion {
+      margin: auto;
+      text-align: center; }
+    .novedades__h2 {
+      margin: auto;
+      text-align: center; } }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   .aside {
