@@ -1413,10 +1413,24 @@ body {
         width: 95%;
         margin: auto;
     }
+    .video__masterclass {
+        margin: auto 2%;
+        width: 95%;
+    }
     .abajoizq {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
         &-panaderia {
             &__img {
-                position: relative;
+                position: unset;
+                height: 200px;
+            }
+        }
+        &-pattiserie {
+            &__img {
+                position: unset;
+                height: 200px;
             }
         }
     }
@@ -1541,11 +1555,15 @@ body {
     .footerbottom {
         display: flex;
         flex-direction: column;
+        height: 100%;
         &__izq {
             margin: 4% auto 0 auto;
         }
         &__der {
             margin: 2%;
+        }
+        .fa-facebook-f {
+            margin:auto;
         }
     }
     #exampleformcontroltextarea1 {
@@ -1567,6 +1585,7 @@ body {
     .emailinput {
         margin: 6% 2% 0 0;
     }
+    
  }
 
  @media only screen and (min-width: 600px) and (max-width: 768px) {

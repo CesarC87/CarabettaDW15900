@@ -1081,8 +1081,19 @@ body {
   .masterclass {
     width: 95%;
     margin: auto; }
-  .abajoizq-panaderia__img {
-    position: relative; }
+  .video__masterclass {
+    margin: auto 2%;
+    width: 95%; }
+  .abajoizq {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    .abajoizq-panaderia__img {
+      position: unset;
+      height: 200px; }
+    .abajoizq-pattiserie__img {
+      position: unset;
+      height: 200px; }
   .abajoder-cafe__img {
     position: relative;
     right: -26%; }
@@ -1165,11 +1176,14 @@ body {
     margin: auto; }
   .footerbottom {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    height: 100%; }
     .footerbottom__izq {
       margin: 4% auto 0 auto; }
     .footerbottom__der {
       margin: 2%; }
+    .footerbottom .fa-facebook-f {
+      margin: auto; }
   #exampleformcontroltextarea1 {
     margin: auto;
     width: 90%; }
