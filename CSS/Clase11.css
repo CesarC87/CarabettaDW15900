@@ -1105,15 +1105,17 @@ body {
       .abajoizq-pattiserie__subtitulo {
         left: 1%;
         top: 24%; }
-  .abajoder-cafe__img {
-    height: 200px;
-    position: unset;
-    margin: 5% auto;
-    display: block; }
-  .abajoder-cafe__titulo {
-    right: 30%; }
-  .abajoder-cafe__subtitulo {
-    left: 28%; }
+  .abajoder-cafe {
+    position: relative; }
+    .abajoder-cafe__img {
+      height: 200px;
+      position: unset;
+      margin: 5% auto;
+      display: block; }
+    .abajoder-cafe__titulo {
+      right: 30%; }
+    .abajoder-cafe__subtitulo {
+      left: 28%; }
   .article__titulo {
     font-family: 'Source Serif Pro', serif; }
   .article__parrafo {
