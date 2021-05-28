@@ -1422,23 +1422,37 @@ body {
         flex-direction: row;
         justify-content: space-evenly;
         &-panaderia {
+            position: relative;
             &__img {
                 position: unset;
                 height: 200px;
             }
+            &__subtitulo {
+                bottom: -10%;
+            }
         }
         &-pattiserie {
+            position: relative;
             &__img {
                 position: unset;
                 height: 200px;
+            }
+            &__titulo {
+                right: 6%;
+            }
+            &__subtitulo {
+                left: 1%;
+                top: 24%;
             }
         }
     }
     .abajoder {
         &-cafe {
             &__img {
-                position: relative;
-                right: -26%;
+                height: 200px;
+                position: unset;
+                margin: 5% auto;
+                display: block;
             }
             &__titulo {
                 right: 30%;

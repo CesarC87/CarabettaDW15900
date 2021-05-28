@@ -1088,15 +1088,28 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly; }
-    .abajoizq-panaderia__img {
-      position: unset;
-      height: 200px; }
-    .abajoizq-pattiserie__img {
-      position: unset;
-      height: 200px; }
+    .abajoizq-panaderia {
+      position: relative; }
+      .abajoizq-panaderia__img {
+        position: unset;
+        height: 200px; }
+      .abajoizq-panaderia__subtitulo {
+        bottom: -10%; }
+    .abajoizq-pattiserie {
+      position: relative; }
+      .abajoizq-pattiserie__img {
+        position: unset;
+        height: 200px; }
+      .abajoizq-pattiserie__titulo {
+        right: 6%; }
+      .abajoizq-pattiserie__subtitulo {
+        left: 1%;
+        top: 24%; }
   .abajoder-cafe__img {
-    position: relative;
-    right: -26%; }
+    height: 200px;
+    position: unset;
+    margin: 5% auto;
+    display: block; }
   .abajoder-cafe__titulo {
     right: 30%; }
   .abajoder-cafe__subtitulo {
