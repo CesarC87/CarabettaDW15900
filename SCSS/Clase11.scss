@@ -1653,7 +1653,7 @@ body {
     }
     .h1recetas {
         width: max-content;
-        margin: auto ;
+        margin: 5% auto ;
         padding: 0 2%;
         &__titulo {
             font-size: 9vw;
@@ -1689,6 +1689,9 @@ body {
     .carousel-item .h-100 {
         height: 48vw !important;
     }
+    .h1recetas__titulo, .h1tecnicas1__titulo, .h1tecnicas2__titulo, .h1galeria__titulo {
+        font-family: 'DM Serif Display', serif;
+    }    
  }
                                                                         /*MEDIA @768px*/
  @media only screen and (min-width: 577px) and (max-width: 768px) {
@@ -1933,6 +1936,21 @@ body {
             margin: 2% auto;
         }
     }                                                     
+                                                                /*GALERIA @768*/
+    .bodyimagenes {
+        background-image: none;
+        background-color: #f0f0f0;
+    }
+    .h1galeria {
+        &__titulo {
+            margin: 5% auto;
+            text-align: center;
+            font-family: 'DM Serif Display', serif;
+        }
+    }
+    .carousel-item .h-100 {
+        height: 48vw !important;
+    }
  }
 
 
