@@ -1778,6 +1778,26 @@ body {
         &-panaderia__img, &-pattiserie__img {
             position: unset;
         }        
+        &-panaderia {
+            &__titulo {
+            left: 16%;
+            }    
+            &__subtitulo {
+                left: 15%;
+                font-size: 2.5vw;
+            }  
+        }   
+        &-pattiserie {
+            &__titulo {
+                right: 19%;
+                font-size: 4vw;
+            }
+            &__subtitulo {                
+                left: 60%;
+                font-size: 2.5vw;                
+            }
+        }
+        
      }
      .abajoder-cafe {
         &__img {
@@ -1822,6 +1842,19 @@ body {
         &__h2 {
             margin: auto;
             text-align: center;
+        }
+    }
+                                                                /*RECETAS @768PX*/
+
+    .bodyrecetas {
+        background-image: none;
+        background-color: #F0F0F0;
+    }
+    .beef, .steak, .chicken {
+        &__img {
+            height: 55vw;
+            margin: auto;
+            display: block;
         }
     }
         
