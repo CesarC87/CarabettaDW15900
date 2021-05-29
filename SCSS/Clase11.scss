@@ -1889,6 +1889,26 @@ body {
         width: 90%;
         margin: auto;
     }
+    .merengue__tipos, .marinadohierbas__link, .cremapastelera__link {
+        font-size: 3.3vw;
+        background-color: #082f2fb8;
+        text-align: center;
+        margin: unset;
+        margin: 0 32% 5% 30%;
+        border-radius: 20px;
+        padding: 1%;
+    }
+    .marinadohierbas__link li {
+        text-align: right;
+    }
+    .h1tecnicas1 {
+        margin: 5% auto;
+        &__titulo {
+            margin: auto;
+            font-size: 6vw;
+            text-align: center;
+        }
+    }
  }
 
  @media only screen and (min-width: 769px) and (max-width: 992px) {
