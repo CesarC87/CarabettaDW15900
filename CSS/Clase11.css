@@ -1403,8 +1403,21 @@ body {
     background-color: #F0F0F0; }
   .beef__img, .steak__img, .chicken__img {
     height: 55vw;
-    margin: auto;
-    display: block; } }
+    margin: 10% auto;
+    display: block; }
+  .beef-descripcion, .steak-descripcion, .chicken-descripcion, .steak-descripcion, .chicken-descripcion {
+    margin: 0 10% 0 10%;
+    bottom: -10%; }
+  .steak-descripcion {
+    bottom: 7%;
+    left: -1%;
+    margin: 0 27vw 0 27vw; }
+  .chicken-descripcion {
+    bottom: 20%;
+    margin: auto 12vw;
+    left: auto;
+    display: block;
+    position: relative; } }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   .aside {

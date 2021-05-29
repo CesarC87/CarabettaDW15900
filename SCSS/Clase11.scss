@@ -1853,9 +1853,25 @@ body {
     .beef, .steak, .chicken {
         &__img {
             height: 55vw;
-            margin: auto;
+            margin: 10% auto;
             display: block;
         }
+        &-descripcion {
+            margin: 0 10% 0 10%;
+            bottom: -10%;
+        }
+    }
+    .steak-descripcion {
+        bottom: 7%;
+        left: -1%;
+        margin: 0 27vw 0 27vw;        
+    }
+    .chicken-descripcion {
+        bottom: 20%;
+        margin: auto 12vw;
+        left: auto;
+        display: block;
+        position: relative;
     }
         
  }
