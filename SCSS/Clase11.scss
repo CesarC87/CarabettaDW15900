@@ -1690,7 +1690,7 @@ body {
         height: 48vw !important;
     }
  }
-
+                                                                        /*MEDIA @768px*/
  @media only screen and (min-width: 577px) and (max-width: 768px) {
     body {
         background-image: url(../images/background4.jpg);    
@@ -1733,13 +1733,76 @@ body {
          display: inline;
          
      }
-     .aside {
-        margin-left: 100px;
-        margin-right: 100px;
+     .novedades__titulo {
+        margin-bottom: 2%;
+     }
+     .novedades-izq, .novedades-centro, .novedades-der {
+         margin: 2% auto;
+         &__img {
+             margin: auto;
+         }
+         &__cajaparrafo {
+             margin: 0;
+         }
+         &__h6 {
+            left: 24%;
+            top: 58%;
+         }
+         &__parrafo {
+            left: 23%;
+            top: 72%;
+            margin: auto;
+         }
+     }
+     .novedades-centro {
+         &__parrafo {
+             left: 13%;
+         }
+         &__h6 {
+            left: 18%;
+         }
+     }
+     .novedades-der {
+         &__parrafo {
+            left: 16%;
+            top: 65%;
+         }
+     }
+     .masterclass {
+        margin: 2% auto;
+     }
+     .abajoizq {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        &-panaderia__img, &-pattiserie__img {
+            position: unset;
+        }        
+     }
+     .abajoder-cafe {
+        &__img {
+            display: block;
+            margin: 2% auto;
+            position: unset;
+        }
+        &__titulo {
+            left: 55%;
+        }
+        &__subtitulo {
+            left: 30%;
+        }
+    }
+     .aside {        
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        background-color: white;        
+        flex-wrap: wrap;
+        margin: auto;        
         width: 90%;
     }
     .emailinput {
-        margin: 12.5% 1.5% 0 0;
+        margin: 18% 2% 0 0;
     }
     .footer__2 {
         margin: 0 10px;
