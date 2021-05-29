@@ -931,7 +931,9 @@ article h3 {
 }
 
                                                 /*  GALERIA  */
-
+.bodyimagenes {
+    background-color: #f0f0f0;
+}
 .h1galeria {
     @extend .h1recetas;
     width: 12.5%;

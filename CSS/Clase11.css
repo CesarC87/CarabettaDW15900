@@ -738,6 +738,9 @@ article h3 {
   font-size: 1.2rem; }
 
 /*  GALERIA  */
+.bodyimagenes {
+  background-color: #f0f0f0; }
+
 .h1galeria {
   width: 12.5%; }
 
