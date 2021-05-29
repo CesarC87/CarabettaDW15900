@@ -1413,11 +1413,16 @@ body {
     left: -1%;
     margin: 0 27vw 0 27vw; }
   .chicken-descripcion {
-    bottom: 20%;
-    margin: auto 12vw;
-    left: auto;
-    display: block;
-    position: relative; } }
+    margin: auto;
+    left: 0%; }
+  .chicken__link {
+    position: absolute;
+    width: 70%;
+    bottom: 5%;
+    margin: auto 15vw; }
+  .boton .btn-success {
+    margin: auto;
+    display: block; } }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   .aside {
