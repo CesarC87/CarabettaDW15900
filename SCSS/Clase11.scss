@@ -1909,7 +1909,32 @@ body {
             text-align: center;
         }
     }
+
+                                                           /*TECNICAS AVANZADAS @768*/
+    .gridtecnicas2 {
+        display: flex;
+        width: 95%;
+        flex-direction: column;
+        margin: auto;
+    }
+    .h1tecnicas2 {
+        margin: 5% auto;
+        width: max-content;
+        padding: 1%;
+        &__titulo {
+            text-align: center;
+            margin: auto;
+        }
+    }  
+    .cremamuselina, .salsaholandesa, .ahumadocarnes {
+        &__titulo {
+            width: max-content;
+            padding: 1%;
+            margin: 2% auto;
+        }
+    }                                                     
  }
+
 
  @media only screen and (min-width: 769px) and (max-width: 992px) {
         .aside {

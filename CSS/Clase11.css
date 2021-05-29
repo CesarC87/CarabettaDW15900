@@ -1447,7 +1447,24 @@ body {
     .h1tecnicas1__titulo {
       margin: auto;
       font-size: 6vw;
-      text-align: center; } }
+      text-align: center; }
+  /*TECNICAS AVANZADAS @768*/
+  .gridtecnicas2 {
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    margin: auto; }
+  .h1tecnicas2 {
+    margin: 5% auto;
+    width: max-content;
+    padding: 1%; }
+    .h1tecnicas2__titulo {
+      text-align: center;
+      margin: auto; }
+  .cremamuselina__titulo, .salsaholandesa__titulo, .ahumadocarnes__titulo {
+    width: max-content;
+    padding: 1%;
+    margin: 2% auto; } }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   .aside {
