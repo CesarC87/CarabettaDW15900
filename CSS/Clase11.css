@@ -1422,7 +1422,16 @@ body {
     margin: auto 15vw; }
   .boton .btn-success {
     margin: auto;
-    display: block; } }
+    display: block; }
+  /*TECNICAS BASICAS @768PX*/
+  .gridtecnicas1 {
+    display: flex;
+    flex-direction: column; }
+  .merengue,
+  .cremapastelera,
+  .marinadohierbas {
+    width: 90%;
+    margin: auto; } }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   .aside {
