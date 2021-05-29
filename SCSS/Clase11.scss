@@ -1358,7 +1358,7 @@ body {
         text-align: center;
     }
  }
-                                                                        /*MEDIA @576PX */
+                                                                /*MEDIA @ 321PX <--> 576PX*/
  @media only screen and (min-width: 321px) and (max-width: 576px) {
      .header {
         &__titulo {
@@ -1693,7 +1693,7 @@ body {
         font-family: 'DM Serif Display', serif;
     }    
  }
-                                                                        /*MEDIA @768px*/
+                                                            /*MEDIA @ 576PX <--> 768PX*/
  @media only screen and (min-width: 577px) and (max-width: 768px) {
     body {
         background-image: url(../images/background4.jpg);    
@@ -1952,7 +1952,7 @@ body {
         height: 48vw !important;
     }
  }
-
+                                                                /*MEDIA @ 769PX <--> 992PX*/
 
  @media only screen and (min-width: 769px) and (max-width: 992px) {
         .aside {
@@ -1965,4 +1965,20 @@ body {
         .nav a {
             font-size: 85%;
         }
+    .header {
+        display: flex;
+        flex-direction: row;
+        &__titulo {
+            font-size: 8VW;
+            margin: 2% 0 0 2%;
+            text-align: center;
+        }
+        &__logo {
+            height: 100%;        
+            margin: 0 0 0 10%;
+        }
+        &__img {
+            height: 100%;
+        }
+    }
  }
