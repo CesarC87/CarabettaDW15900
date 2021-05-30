@@ -830,43 +830,67 @@ body {
   .novedades {
     display: flex;
     flex-direction: column; }
-    .novedades__titulo .novedades__h2 {
-      margin: 2% 2% 0 25%; }
-    .novedades__titulo .novedades__introduccion {
-      text-align: center; }
-    .novedades-izq {
-      margin: 4% 0.7% 0 0;
+    .novedades__titulo {
       position: relative;
-      right: 8%; }
+      margin: auto;
+      left: 0; }
+      .novedades__titulo .novedades__h2 {
+        margin: 2% 2% 0 25%; }
+      .novedades__titulo .novedades__introduccion {
+        text-align: center; }
+    .novedades-izq {
+      margin: auto;
+      position: relative;
+      right: 0%; }
       .novedades-izq__cajaparrafo {
-        width: 99%; }
+        width: 80%;
+        margin: auto;
+        display: block;
+        left: 10%;
+        bottom: -60%;
+        height: 30%; }
       .novedades-izq__h6 {
-        left: 42%;
-        top: 58%; }
+        left: 24%;
+        top: 78%; }
       .novedades-izq__parrafo {
-        top: 73%;
-        left: 1%; }
+        top: 93%;
+        left: 23%; }
+      .novedades-izq__img {
+        display: block;
+        margin: auto; }
     .novedades-centro {
       position: relative;
-      right: 9%; }
+      right: 0%;
+      margin: auto; }
       .novedades-centro__cajaparrafo {
-        width: 99%; }
+        width: 80%;
+        height: 35%;
+        left: 10%;
+        bottom: -15%; }
       .novedades-centro__parrafo {
-        top: 72%;
-        right: -7%; }
+        top: 82%;
+        right: 12%; }
       .novedades-centro__h6 {
-        right: 17%;
-        top: 62%; }
+        right: 34%;
+        top: 70%; }
+      .novedades-centro__img {
+        margin: 15% auto 0 auto; }
     .novedades-der {
-      margin: 2% 5% 5% 0; }
+      position: relative;
+      right: 0%;
+      margin: auto; }
       .novedades-der__cajaparrafo {
-        width: 98.2%; }
+        width: 80%;
+        left: 10%;
+        bottom: 6%; }
       .novedades-der__parrafo {
-        top: 70%;
-        right: -3%; }
+        top: 66%;
+        right: 15%; }
       .novedades-der__h6 {
-        top: 63%;
-        right: 10%; }
+        top: 64%;
+        right: 27%; }
+      .novedades-der__img {
+        margin: 15% auto 15% auto; }
   .video__masterclass {
     width: 300px;
     margin: 0 0 0 3%; }
