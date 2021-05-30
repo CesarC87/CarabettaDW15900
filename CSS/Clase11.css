@@ -1123,47 +1123,61 @@ body {
   .novedades {
     display: flex;
     flex-direction: column; }
+    .novedades__titulo {
+      left: 0%; }
     .novedades__h2 {
       margin: auto;
       text-align: center; }
     .novedades__introduccion {
       margin: 2% auto;
-      text-align: center; }
+      text-align: center;
+      width: max-content; }
     .novedades-izq {
       margin: auto; }
       .novedades-izq__h6 {
-        top: 57%;
-        left: 22%;
-        margin: 0 0 2% 0; }
+        margin: auto;
+        top: 67%;
+        left: 23%; }
       .novedades-izq__parrafo {
-        margin: 0 0 0 20%;
-        top: 70%; }
+        margin: auto;
+        top: 83%;
+        left: 23%; }
       .novedades-izq__img {
         margin: auto; }
       .novedades-izq__cajaparrafo {
-        margin: auto 0; }
+        margin: auto 0;
+        left: 10%;
+        bottom: -40%;
+        height: 30%; }
     .novedades-centro {
       margin: 4% auto; }
       .novedades-centro__parrafo {
         top: 70%;
         right: 14%; }
       .novedades-centro__h6 {
-        top: 60%;
+        top: 55%;
         right: 35%; }
       .novedades-centro__img {
         margin: auto; }
       .novedades-centro__cajaparrafo {
-        margin: auto 0; }
+        margin: auto 0;
+        left: 7.5%;
+        bottom: -10%;
+        height: 40%; }
     .novedades-der {
-      margin: auto; }
+      margin: auto auto 10% auto; }
       .novedades-der__parrafo {
-        top: 65%;
-        right: 20%; }
+        top: 70%;
+        right: 18%; }
       .novedades-der__h6 {
-        top: 58%;
+        top: 68%;
         right: 28%; }
       .novedades-der__img {
         margin: auto; }
+      .novedades-der__cajaparrafo {
+        left: 8%;
+        bottom: -10%;
+        height: 25%; }
   .masterclass {
     width: 95%;
     margin: auto; }

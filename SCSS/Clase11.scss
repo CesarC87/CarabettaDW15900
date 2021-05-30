@@ -1440,6 +1440,9 @@ body {
     .novedades {
         display: flex;
         flex-direction: column;
+        &__titulo {
+            left: 0%;
+        }
         &__h2 {
             margin: auto;
             text-align: center;
@@ -1447,23 +1450,28 @@ body {
         &__introduccion {
             margin: 2% auto;
             text-align: center;
+            width: max-content;
         }
         &-izq {
             margin: auto;
             &__h6 {
-                top: 57%;
-                left: 22%;
-                margin: 0 0 2% 0;
+                margin: auto;
+                top: 67%;
+                left: 23%;
             }
             &__parrafo {
-                margin: 0 0 0 20%;
-                top: 70%;
+                margin: auto;
+                top: 83%;
+                left: 23%;
             }
             &__img {
                 margin: auto;
             }
             &__cajaparrafo {
                 margin: auto 0;
+                left: 10%;
+                bottom: -40%;
+                height: 30%;
             }
         }
         &-centro {
@@ -1473,7 +1481,7 @@ body {
                 right: 14%;
             }
             &__h6 {
-                top: 60%;
+                top: 55%;
                 right: 35%;
             }
             &__img {
@@ -1481,20 +1489,28 @@ body {
             }
             &__cajaparrafo {
                 margin: auto 0;
+                left: 7.5%;
+                bottom: -10%;
+                height: 40%;
             }
         }
         &-der {
-            margin: auto;
+            margin: auto auto 10% auto;
             &__parrafo {
-                top: 65%;
-                right: 20%;
+                top: 70%;
+                right: 18%;
             }
             &__h6 {
-                top: 58%;
+                top: 68%;
                 right: 28%;
             }
             &__img {
                 margin: auto;
+            }
+            &__cajaparrafo {
+                left: 8%;
+                bottom: -10%;
+                height: 25%;
             }
         }
     }
