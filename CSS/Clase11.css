@@ -1133,7 +1133,7 @@ body {
       text-align: center;
       width: max-content; }
     .novedades-izq {
-      margin: auto; }
+      margin: 5% auto; }
       .novedades-izq__h6 {
         margin: auto;
         top: 67%;
@@ -1150,7 +1150,7 @@ body {
         bottom: -40%;
         height: 30%; }
     .novedades-centro {
-      margin: 4% auto; }
+      margin: 8% auto; }
       .novedades-centro__parrafo {
         top: 70%;
         right: 14%; }
@@ -1396,27 +1396,38 @@ body {
   .nav li {
     display: inline; }
   .novedades__titulo {
-    margin-bottom: 2%; }
+    margin-bottom: 2%;
+    left: 0%; }
+  .novedades__introduccion {
+    width: max-content; }
   .novedades-izq, .novedades-centro, .novedades-der {
-    margin: 2% auto; }
+    margin: 4% auto; }
     .novedades-izq__img, .novedades-centro__img, .novedades-der__img {
       margin: auto; }
     .novedades-izq__cajaparrafo, .novedades-centro__cajaparrafo, .novedades-der__cajaparrafo {
-      margin: 0; }
+      margin: 0;
+      left: 10%;
+      top: 80%;
+      height: 35%; }
     .novedades-izq__h6, .novedades-centro__h6, .novedades-der__h6 {
       left: 24%;
-      top: 58%; }
+      top: 67%; }
     .novedades-izq__parrafo, .novedades-centro__parrafo, .novedades-der__parrafo {
       left: 23%;
-      top: 72%;
+      top: 85%;
       margin: auto; }
   .novedades-centro__parrafo {
-    left: 13%; }
+    left: 13%;
+    top: 81%; }
   .novedades-centro__h6 {
     left: 18%; }
+  .novedades-centro__cajaparrafo {
+    left: 7.5%;
+    bottom: -15%;
+    height: 40%; }
   .novedades-der__parrafo {
     left: 16%;
-    top: 65%; }
+    top: 72%; }
   .masterclass {
     margin: 2% auto; }
   .abajoizq {
