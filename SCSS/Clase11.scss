@@ -2068,4 +2068,68 @@ body {
             margin: 0;
         }
     }
+    .novedades {
+        flex-wrap: wrap;
+        &__titulo {
+            margin: auto;
+            left:0%;
+        }
+        &-izq {
+            margin: 1.5% auto;
+            top: 4%;
+            &__cajaparrafo {
+                height: 40%;
+                top: 65%;
+                left: -10%;
+            }
+            &__h6 {
+                top: 55%;
+                left: 23%;
+            }
+            &__parrafo {
+                top: 75%;
+                left: 23%;
+            }
+            &__img {
+                margin: auto;
+            }
+        }
+        &-centro {
+            margin: 3% auto;
+            &__cajaparrafo {
+                bottom: -25%;
+                left: 8%;
+            }
+            &__h6 {
+                top: 63%;               
+                right: 35%;
+            }
+            &__parrafo {
+                top: 82%;
+                left: 15%;
+            }
+            &__img {
+                margin: auto;
+            }
+        }
+        &-der {
+            margin: 3% auto;
+            &__cajaparrafo {
+                bottom: -13%;
+                height: 28%;
+                left: 10%;
+            }
+            &__h6 {
+                top: 73%;
+                right: 28%;
+            }
+            &__parrafo {
+                top: 74%;
+                left: 15%;
+            }
+            &__img {
+                margin: auto;
+            }
+        }
+    }
  }

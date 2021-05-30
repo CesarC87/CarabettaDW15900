@@ -1581,4 +1581,51 @@ body {
     .header__img {
       height: 100%; }
     .header__subtitulo {
-      margin: 0; } }
+      margin: 0; }
+  .novedades {
+    flex-wrap: wrap; }
+    .novedades__titulo {
+      margin: auto;
+      left: 0%; }
+    .novedades-izq {
+      margin: 1.5% auto;
+      top: 4%; }
+      .novedades-izq__cajaparrafo {
+        height: 40%;
+        top: 65%;
+        left: -10%; }
+      .novedades-izq__h6 {
+        top: 55%;
+        left: 23%; }
+      .novedades-izq__parrafo {
+        top: 75%;
+        left: 23%; }
+      .novedades-izq__img {
+        margin: auto; }
+    .novedades-centro {
+      margin: 3% auto; }
+      .novedades-centro__cajaparrafo {
+        bottom: -25%;
+        left: 8%; }
+      .novedades-centro__h6 {
+        top: 63%;
+        right: 35%; }
+      .novedades-centro__parrafo {
+        top: 82%;
+        left: 15%; }
+      .novedades-centro__img {
+        margin: auto; }
+    .novedades-der {
+      margin: 3% auto; }
+      .novedades-der__cajaparrafo {
+        bottom: -13%;
+        height: 28%;
+        left: 10%; }
+      .novedades-der__h6 {
+        top: 73%;
+        right: 28%; }
+      .novedades-der__parrafo {
+        top: 74%;
+        left: 15%; }
+      .novedades-der__img {
+        margin: auto; } }
