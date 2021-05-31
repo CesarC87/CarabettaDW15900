@@ -1637,16 +1637,35 @@ body {
     position: relative; }
     .abajoizq-panaderia {
       position: relative;
-      top: 20%;
+      top: 8%;
       margin: auto;
-      left: -5%; }
+      left: -5%;
+      height: 100%; }
+      .abajoizq-panaderia__titulo {
+        bottom: 23%; }
+      .abajoizq-panaderia__subtitulo {
+        bottom: 18%; }
     .abajoizq-pattiserie {
       position: relative;
-      left: -5%;
-      top: 20%; }
+      left: 50%;
+      top: -92%;
+      height: 100%;
+      width: 197px; }
+      .abajoizq-pattiserie__titulo {
+        right: 27%; }
+      .abajoizq-pattiserie__subtitulo {
+        left: 5%; }
   .abajoder {
     position: relative; }
     .abajoder-cafe {
       position: absolute;
-      top: 20%;
-      right: 18%; } }
+      top: 8%;
+      right: 10%;
+      height: 100%;
+      width: 313px; }
+      .abajoder-cafe__titulo {
+        right: 15.5%;
+        bottom: 22%; }
+      .abajoder-cafe__subtitulo {
+        bottom: 17%;
+        left: 2%; } }
