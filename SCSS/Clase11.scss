@@ -2038,7 +2038,7 @@ body {
  }
                                                                 /*MEDIA @ 769PX <--> 992PX*/
 
- @media only screen and (min-width: 769px) and (max-width: 992px) {
+ @media only screen and (min-width: 769px) and (max-width: 852px) {
         .aside {
             margin-left: 300px;
             margin-right: 300px;
@@ -2097,16 +2097,16 @@ body {
         &-centro {
             margin: 3% auto;
             &__cajaparrafo {
-                bottom: -25%;
+                bottom: -10%;
                 left: 8%;
             }
             &__h6 {
-                top: 63%;               
+                top: 52%;               
                 right: 35%;
             }
             &__parrafo {
-                top: 82%;
-                left: 15%;
+                top: 70%;
+                left: 12%;
             }
             &__img {
                 margin: auto;
@@ -2131,5 +2131,34 @@ body {
                 margin: auto;
             }
         }
+    }
+    .masterclass {
+        margin: auto;
+    }
+    .video__masterclass {
+        margin: auto;
+    }
+    .abajoizq {
+        position: relative;
+        &-panaderia {
+            position: relative;
+            top: 20%;
+            margin: auto;
+            left: -5%;
+        }
+        &-pattiserie {
+            position: relative;
+            left: -5%;
+            top: 20%;      
+        }
+    }
+    .abajoder {
+        position: relative;
+        &-cafe {
+            position: absolute;
+            top: 20%;
+            right: 18%;
+        }
+        
     }
  }

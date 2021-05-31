@@ -1560,7 +1560,7 @@ body {
     height: 48vw !important; } }
 
 /*MEDIA @ 769PX <--> 992PX*/
-@media only screen and (min-width: 769px) and (max-width: 992px) {
+@media only screen and (min-width: 769px) and (max-width: 852px) {
   .aside {
     margin-left: 300px;
     margin-right: 300px; }
@@ -1605,14 +1605,14 @@ body {
     .novedades-centro {
       margin: 3% auto; }
       .novedades-centro__cajaparrafo {
-        bottom: -25%;
+        bottom: -10%;
         left: 8%; }
       .novedades-centro__h6 {
-        top: 63%;
+        top: 52%;
         right: 35%; }
       .novedades-centro__parrafo {
-        top: 82%;
-        left: 15%; }
+        top: 70%;
+        left: 12%; }
       .novedades-centro__img {
         margin: auto; }
     .novedades-der {
@@ -1628,4 +1628,25 @@ body {
         top: 74%;
         left: 15%; }
       .novedades-der__img {
-        margin: auto; } }
+        margin: auto; }
+  .masterclass {
+    margin: auto; }
+  .video__masterclass {
+    margin: auto; }
+  .abajoizq {
+    position: relative; }
+    .abajoizq-panaderia {
+      position: relative;
+      top: 20%;
+      margin: auto;
+      left: -5%; }
+    .abajoizq-pattiserie {
+      position: relative;
+      left: -5%;
+      top: 20%; }
+  .abajoder {
+    position: relative; }
+    .abajoder-cafe {
+      position: absolute;
+      top: 20%;
+      right: 18%; } }
